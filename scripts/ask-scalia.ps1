@@ -134,7 +134,7 @@ if (-not [string]::IsNullOrWhiteSpace($env:OLLAMA_URL)) {
     $ollamaUrl = $env:OLLAMA_URL.TrimEnd("/")
 }
 
-$chatModel = "scalia:1.0.0"
+$chatModel = "scalia:1.1.0"
 
 if (-not [string]::IsNullOrWhiteSpace($env:CHAT_MODEL)) {
     $chatModel = $env:CHAT_MODEL
@@ -429,7 +429,7 @@ $chatRequestObject = @{
     options = @{
         temperature = 0.1
         num_ctx = 2048
-        num_predict = 160
+        num_predict = 220
     }
 }
 
