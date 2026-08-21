@@ -1,0 +1,11 @@
+# Secrets locaux
+.env
+.env.*
+!.env.example
+
+# Index RAG généré (régénérable via scripts/index-knowledge.ps1)
+data/
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db

@@ -133,6 +133,8 @@ L'offre Premium donne également accès à un bouton permettant d'ouvrir l'**Orc
 
 L'Orchestrateur de tâches est un assistant intelligent qui aide à organiser, prioriser et planifier vos tâches.
 
+Attention : l'Orchestrateur de tâches lui-même est une fonctionnalité **100% Premium** à part entière (voir sa page dédiée). Ce paragraphe ne décrit qu'un raccourci d'accès depuis Mes tâches, pas une exception de gratuité.
+
 ---
 
 # Tags

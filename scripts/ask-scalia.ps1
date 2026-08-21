@@ -50,6 +50,11 @@ function Import-DotEnv {
         $name = $parts[0].Trim()
         $value = $parts[1].Trim().Trim('"').Trim("'")
 
+        # Une variable déjà positionnée dans le shell (ex. override ponctuel) est prioritaire sur le .env.
+        if (-not [string]::IsNullOrEmpty([Environment]::GetEnvironmentVariable($name, "Process"))) {
+            continue
+        }
+
         [Environment]::SetEnvironmentVariable(
             $name,
             $value,

@@ -15,15 +15,36 @@ services:
     environment:
       OLLAMA_KEEP_ALIVE: "30m"
       OLLAMA_CONTEXT_LENGTH: "4096"
-      OLLAMA_MAX_LOADED_MODELS: "1"
-      OLLAMA_NUM_PARALLEL: "1"
+      OLLAMA_MAX_LOADED_MODELS: "2"
+      OLLAMA_NUM_PARALLEL: "2"
       OLLAMA_NO_CLOUD: "1"
+
+    mem_limit: 10g
 
     healthcheck:
       test: ["CMD", "ollama", "list"]
       interval: 10s
       timeout: 5s
       retries: 30
+
+  init:
+    image: mcr.microsoft.com/powershell:7.4-ubuntu-22.04
+    container_name: scalrise-init
+    depends_on:
+      ollama:
+        condition: service_healthy
+
+    working_dir: /app
+
+    volumes:
+      - ./:/app
+
+    environment:
+      # Le nom du service Docker remplace localhost : les conteneurs ne partagent pas le réseau de l'hôte.
+      OLLAMA_URL: http://ollama:11434
+
+    entrypoint: ["pwsh", "-NoProfile", "-File", "/app/scripts/init-scalia.ps1"]
+    restart: "no"
 
 volumes:
   ollama-data:
