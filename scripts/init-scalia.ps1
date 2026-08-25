@@ -117,11 +117,12 @@ $parameters = @{}
 foreach ($line in ($modelfileContent -split "`n")) {
     $line = $line.Trim()
     if ($line -match '^PARAMETER\s+(\S+)\s+(.+)$') {
+        $paramName = $matches[1]
         $paramValue = $matches[2].Trim()
         if ($paramValue -match '^-?\d+(\.\d+)?$') {
-            $parameters[$matches[1]] = [double]$paramValue
+            $parameters[$paramName] = [double]$paramValue
         } else {
-            $parameters[$matches[1]] = $paramValue
+            $parameters[$paramName] = $paramValue
         }
     }
 }
