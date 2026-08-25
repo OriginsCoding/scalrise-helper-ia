@@ -107,11 +107,32 @@ if (-not (Test-Path $modelfilePath)) {
 
 $modelfileContent = Get-Content -Path $modelfilePath -Raw -Encoding UTF8
 
+# Depuis les versions récentes d'Ollama, /api/create n'accepte plus le champ "modelfile" brut : il faut envoyer les champs structurés (from/system/parameters).
+$system = $null
+if ($modelfileContent -match '(?s)SYSTEM\s+"""(.*?)"""') {
+    $system = $matches[1].Trim()
+}
+
+$parameters = @{}
+foreach ($line in ($modelfileContent -split "`n")) {
+    $line = $line.Trim()
+    if ($line -match '^PARAMETER\s+(\S+)\s+(.+)$') {
+        $paramValue = $matches[2].Trim()
+        if ($paramValue -match '^-?\d+(\.\d+)?$') {
+            $parameters[$matches[1]] = [double]$paramValue
+        } else {
+            $parameters[$matches[1]] = $paramValue
+        }
+    }
+}
+
 $createBody = @{
     model = $modelName
-    modelfile = $modelfileContent
+    from = $baseModel
+    system = $system
+    parameters = $parameters
     stream = $false
-} | ConvertTo-Json -Compress
+} | ConvertTo-Json -Compress -Depth 5
 
 Invoke-RestMethod `
     -Uri "$ollamaUrl/api/create" `
