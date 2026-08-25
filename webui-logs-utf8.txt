@@ -1,0 +1,40 @@
+﻿██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+v0.11.0 - building the best AI user interface.
+
+https://github.com/open-webui/open-webui
+
+2026-08-21 13:21:55.829 | INFO     | open_webui.utils.logger:start_logger:218 - GLOBAL_LOG_LEVEL: INFO
+2026-08-21 13:21:56.437 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main "HTTP/1.1 200 OK"
+2026-08-21 13:21:56.612 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/1110a243fdf4706b3f48f1d95db1a4f5529b4d41?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-21 13:21:56.792 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/.gitattributes "HTTP/1.1 307 Temporary Redirect"
+2026-08-21 13:21:56.793 | WARNING  | huggingface_hub.utils._http:_warn_on_warning_headers:951 - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-21 13:21:56.895 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/.gitattributes "HTTP/1.1 200 OK"
+2026-08-21 13:21:56.959 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/.gitattributes "HTTP/1.1 200 OK"
+docker : INFO:     Started server process [1]
+Au caractère Ligne:1 : 1
++ docker logs scalrise-openwebui --tail 30 *> .\webui-logs.log
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (INFO:     Started server process  
+   [1]:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-08-21 13:21:57.004 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/data_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-21 13:21:57.144 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/data_config.json "HTTP/1.1 200 OK"
+2026-08-21 13:21:57.228 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/data_config.json "HTTP/1.1 200 OK"
+2026-08-21 13:24:24.911 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/openvino/openvino_model.xml "HTTP/1.1 307 Temporary Redirect"
+2026-08-21 13:24:25.012 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/openvino%2Fopenvino_model.xml "HTTP/1.1 200 OK"
+2026-08-21 13:24:25.187 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/openvino%2Fopenvino_model.xml "HTTP/1.1 200 OK"
+2026-08-21 13:24:38.306 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/openvino/openvino_model_qint8_quantized.xml "HTTP/1.1 307 Temporary Redirect"
+2026-08-21 13:24:38.646 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/openvino%2Fopenvino_model_qint8_quantized.xml "HTTP/1.1 200 OK"
+INFO:     Waiting for application startup.
+
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Warning: You are 
+sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to 
+enable higher rate limits and faster downloads.
+2026-08-21 13:24:39.210 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/openvino%2Fopenvino_model_qint8_quantized.xml "HTTP/1.1 200 OK"
