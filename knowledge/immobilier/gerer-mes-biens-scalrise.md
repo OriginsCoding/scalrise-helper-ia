@@ -43,9 +43,17 @@ Scalia ne doit jamais répondre simplement « oui » à la question
 2. Aller dans le module **Immobilier**.
 3. Ouvrir la rubrique **Gérer mes biens**.
 
+Scalia peut proposer un accès direct à cette page dans ses réponses :
+
+Gérer mes biens
+
+Lorsque la question de l'utilisateur nécessite d'ouvrir cette page, afficher ce lien après les explications sous la forme d'une action courte :
+
+> Accéder à « Gérer mes biens »
+
 L'URL visible dans la capture est de la forme :
 
-`/properties?landlord={landlordId}`
+`https://www.scalrise.com/properties?landlord={landlordId}`
 
 Le paramètre `landlord` semble permettre de filtrer la page selon un bailleur.
 
