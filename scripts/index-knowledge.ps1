@@ -52,6 +52,60 @@ function Import-DotEnv {
     }
 }
 
+function Get-DocumentMetadata {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Content,
+
+        [Parameter(Mandatory = $true)]
+        [string]$RelativePath,
+
+        [Parameter(Mandatory = $true)]
+        [string]$DefaultTitle
+    )
+
+    $metadata = @{
+        title = $DefaultTitle
+        module = ''
+        route = ''
+        page_type = ''
+        tags = @()
+    }
+
+    if ($Content -match '(?s)^---\r?\n(.*?)\r?\n---\r?\n') {
+        foreach ($line in ($Matches[1] -split '\r?\n')) {
+            if ($line -match '^\s*title\s*:\s*(.+?)\s*$') {
+                $metadata.title = $Matches[1].Trim().Trim('"').Trim("'")
+            }
+            elseif ($line -match '^\s*module\s*:\s*(.+?)\s*$') {
+                $metadata.module = $Matches[1].Trim().Trim('"').Trim("'").ToLowerInvariant()
+            }
+            elseif ($line -match '^\s*route\s*:\s*(.+?)\s*$') {
+                $metadata.route = $Matches[1].Trim().Trim('"').Trim("'")
+            }
+            elseif ($line -match '^\s*page_type\s*:\s*(.+?)\s*$') {
+                $metadata.page_type = $Matches[1].Trim().Trim('"').Trim("'")
+            }
+            elseif ($line -match '^\s*tags\s*:\s*(.+?)\s*$') {
+                $metadata.tags = @($Matches[1].Split(',') | ForEach-Object { $_.Trim().ToLowerInvariant() } | Where-Object { $_ })
+            }
+        }
+    }
+
+    if ($metadata.tags.Count -eq 0 -and $Content -match '(?im)^\s*Tags\s*:\s*(.+?)\s*$') {
+        $metadata.tags = @($Matches[1].Split(',') | ForEach-Object { $_.Trim().ToLowerInvariant() } | Where-Object { $_ })
+    }
+
+    if ([string]::IsNullOrWhiteSpace($metadata.module)) {
+        $pathParts = $RelativePath.Split('/')
+        if ($pathParts.Count -gt 1) {
+            $metadata.module = $pathParts[1].ToLowerInvariant()
+        }
+    }
+
+    return $metadata
+}
+
 function Split-MarkdownIntoChunks {
     param(
         [Parameter(Mandatory = $true)]
@@ -255,6 +309,9 @@ $relativePath = $file.FullName.Substring($rootPath.Length)
 $relativePath = $relativePath.TrimStart([char[]]"\/")
 $relativePath = $relativePath.Replace("\", "/")
 
+    $metadata = Get-DocumentMetadata -Content $content -RelativePath $relativePath -DefaultTitle $file.BaseName
+    Write-Host "Métadonnées : module=$($metadata.module) route=$($metadata.route) tags=$($metadata.tags -join ', ')"
+
     $chunkNumber = 0
 
     foreach ($chunkText in $chunks) {
@@ -262,8 +319,15 @@ $relativePath = $relativePath.Replace("\", "/")
 
         Write-Host "  Chunk $chunkNumber/$($chunks.Count) : $($chunkText.Length) caractères — envoi à $embeddingModel..."
 
-        # On force explicitement le contenu en chaîne de caractères.
-        [string]$documentText = $chunkText
+        # Les métadonnées rendent les termes de domaine visibles pour l'embedding.
+        [string]$documentText = @"
+    Titre : $($metadata.title)
+    Module : $($metadata.module)
+    Route : $($metadata.route)
+    Tags : $($metadata.tags -join ', ')
+
+    $chunkText
+"@
 
         $requestBodyObject = @{
             model = $embeddingModel
@@ -307,7 +371,11 @@ $relativePath = $relativePath.Replace("\", "/")
 
         $document = [PSCustomObject]@{
             source = $relativePath
-            title = $file.BaseName
+            title = $metadata.title
+            module = $metadata.module
+            route = $metadata.route
+            page_type = $metadata.page_type
+            tags = $metadata.tags
             chunk = $chunkNumber
             chunkCount = $chunks.Count
             content = $chunkText
