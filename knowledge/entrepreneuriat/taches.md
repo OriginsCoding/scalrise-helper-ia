@@ -4,6 +4,12 @@
 
 Entrepreneuriat → Mes tâches
 
+> Accéder à « Gérer mes tâches »
+
+L'URL visible dans la capture est de la forme :
+
+`https://www.scalrise.com/tasks`
+
 ou directement depuis **Tâches** dans le menu latéral.
 
 La page **Mes tâches** permet de gérer ses tâches, suivre sa charge de travail et organiser son planning.

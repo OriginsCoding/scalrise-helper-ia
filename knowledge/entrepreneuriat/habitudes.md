@@ -6,6 +6,12 @@ Entrepreneuriat → Mes habitudes
 
 La page **Mes habitudes** permet de créer, suivre et analyser ses habitudes afin d'améliorer sa régularité et sa productivité.
 
+> Accéder à « Gérer mes habitudes »
+
+L'URL visible dans la capture est de la forme :
+
+`https://www.scalrise.com/habits`
+
 ---
 
 # Fonctionnalités

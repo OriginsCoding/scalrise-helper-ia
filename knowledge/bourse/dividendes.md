@@ -16,6 +16,12 @@ La page **Suivi des dividendes** est accessible depuis :
 
 - **Bourse → Suivi des dividendes**
 
+> Accéder à « Suivi des dividendes »
+
+L'URL visible dans la capture est de la forme :
+
+`https://www.scalrise.com/stocks/dividends`
+
 Elle permet de suivre les revenus générés par les dividendes de ses portefeuilles boursiers.
 
 La majorité des fonctionnalités est disponible gratuitement.
