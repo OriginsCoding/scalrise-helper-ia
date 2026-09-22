@@ -11,25 +11,41 @@ source: captures d'écran Scalrise
 
 Tags : focus workspace, concentration, pomodoro, minuteur, timer pomodoro, musique de concentration, ambiance, vidéo de fond, feu de cheminée, café, jazz, pluie, forêt, synthwave, playlist YouTube, tâches du jour, bloc note, notes, deep work, productivité, outils, focus, espace de travail
 
+Le **Focus Workspace est entièrement gratuit**.
+
 ## Présentation
 
 Le **Focus Workspace** est un espace de travail conçu pour améliorer la concentration.
 
 Il regroupe plusieurs outils dans une seule interface afin de limiter les distractions pendant une session de travail.
 
-Cette fonctionnalité est accessible depuis :
-
-- **Outils → Focus Workspace**
-
-L'URL visible est :
-
-`/tools/focus`
-
-## Accès
+## Accès à la page
 
 Le **Focus Workspace est entièrement gratuit**.
 
 Aucun abonnement Premium n'est nécessaire pour utiliser cette fonctionnalité.
+
+1. Ouvrir Scalrise.
+2. Aller dans le module **Outils**.
+3. Ouvrir la rubrique **Focus Workspace**.
+
+Scalia peut proposer un accès direct à cette page dans ses réponses :
+
+Focus Workspace
+
+Lorsque la question de l'utilisateur nécessite d'ouvrir cette page, afficher ce lien après les explications sous la forme d'une action courte :
+
+> Accéder à « Focus Workspace »
+
+L'URL visible dans la capture est de la forme :
+
+Cette fonctionnalité est accessible depuis :
+
+- **Outils → Focus Workspace**
+
+L'URL visible dans la capture est de la forme :
+
+`https://www.scalrise.com/tools/focus`
 
 ## Fonctionnalités principales
 
