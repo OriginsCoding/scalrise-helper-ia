@@ -10,12 +10,6 @@ access: Menu latéral › Immobilier › carte Mon Parcours Immo › Étape 1
 
 # Les fondamentaux du rendement
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo** › **Étape 1**.
-- Lien direct dans Scalrise : `/real-estate/parcours/step/1`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’étape 1 du Parcours Immo » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 Cette première leçon explique comment mesurer la rentabilité réelle d'un investissement immobilier avant de l'acheter.
@@ -66,3 +60,7 @@ Pour trouver un bien rentable :
 1. Utiliser l'étape **Trouver le bon bien** pour analyser la ville, l'annonce et les risques.
 2. Utiliser **Calculs de rentabilité** pour vérifier le rendement et le cash-flow.
 3. Comparer plusieurs opportunités avant de prendre une décision.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo** › **Étape 1**.

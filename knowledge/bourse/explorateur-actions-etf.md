@@ -10,12 +10,6 @@ access: Menu latéral › Bourse › carte Explorateur Actions & ETF
 
 # Explorateur Actions & ETF
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Bourse** › carte **Explorateur Actions & ETF**.
-- Lien direct dans Scalrise : `/stocks/explore`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’explorateur Actions & ETF » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 L'Explorateur Actions & ETF permet de rechercher, filtrer et découvrir des actions et des ETF directement depuis Scalrise.
@@ -93,3 +87,7 @@ Scalia ne doit pas inventer ces informations.
 - Peut-on trouver des actions éligibles au PEA ?
 - Peut-on ouvrir la fiche Boursorama ?
 - L'explorateur contient-il des ETF ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse** › carte **Explorateur Actions & ETF**.

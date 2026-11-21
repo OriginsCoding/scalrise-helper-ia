@@ -11,12 +11,6 @@ access: Menu latéral › Bibliothèque
 
 # Bibliothèque Scalrise
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Bibliothèque**.
-- Lien direct dans Scalrise : `/library`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir la Bibliothèque » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Objectif de la page
 
 La page **Bibliothèque** permet de découvrir une sélection de contenus consacrés notamment à :
@@ -200,3 +194,7 @@ Les captures ne permettent pas de déterminer :
 - les fonctionnalités précises de l'onglet Vidéos.
 
 Scalia ne doit pas inventer ces informations.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bibliothèque**.

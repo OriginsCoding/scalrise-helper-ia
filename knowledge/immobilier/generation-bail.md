@@ -8,12 +8,6 @@ access: Menu latéral › Immobilier › carte Gérer mes biens › cliquer sur 
 
 # Génération de bail
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens** › cliquer sur le bien › onglet **Documents** › **Bail (Contrat de location)**.
-- Lien direct dans Scalrise : `/properties`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Gérer mes biens » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Description
 
 Scalrise permet de générer automatiquement un bail conforme à partir des informations du bien, du bailleur et du locataire.
@@ -224,3 +218,7 @@ Le document peut ensuite être :
 # Objectif
 
 La génération automatique de bail permet de produire rapidement un contrat complet en réutilisant les informations déjà enregistrées dans Scalrise.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens** › cliquer sur le bien › onglet **Documents** › **Bail (Contrat de location)**.

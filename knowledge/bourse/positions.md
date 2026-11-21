@@ -10,12 +10,6 @@ access: Menu latéral › Bourse › carte Portfolio (ou ouvrir un portefeuille 
 
 # Positions boursières
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Bourse** › carte **Portfolio** (ou ouvrir un portefeuille depuis **Mes Portefeuilles**).
-- Lien direct dans Scalrise : `/stocks/portfolio`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir mes positions » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 Une position représente une action ou un titre détenu dans un portefeuille boursier.
@@ -178,3 +172,7 @@ Scalia ne doit pas inventer ces informations.
 - Que se passe-t-il si une donnée est manquante ?
 - Peut-on importer les positions avec un fichier CSV ?
 - Où se trouve l’import CSV ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse** › carte **Portfolio** (ou ouvrir un portefeuille depuis **Mes Portefeuilles**).

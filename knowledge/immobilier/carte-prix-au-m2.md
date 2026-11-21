@@ -11,12 +11,6 @@ access: Menu latéral › Immobilier › carte Carte des prix
 
 # Carte des prix au m²
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Carte des prix**.
-- Lien direct dans Scalrise : `/real-estate/price-map`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir la carte des prix » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 La page **Carte des prix au m²** permet de visualiser les prix immobiliers médians par département en France.
@@ -182,3 +176,7 @@ Scalia ne doit pas inventer ces informations.
 - Scalrise peut-il me montrer les départements les plus chers ?
 - Je cherche une vue nationale des prix immobiliers.
 - La carte donne-t-elle le prix médian national ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Carte des prix**.

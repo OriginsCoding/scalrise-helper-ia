@@ -8,12 +8,6 @@ access: Menu latéral › Immobilier › carte Gérer mes biens › cliquer sur 
 
 # Génération de quittances
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens** › cliquer sur le bien › onglet **Locataire** › menu du locataire › **Générer une quittance**.
-- Lien direct dans Scalrise : `/properties`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Gérer mes biens » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Description
 
 Scalrise permet de générer une quittance de loyer au format PDF pour un locataire ayant réglé son loyer.
@@ -175,3 +169,7 @@ Après validation d'un paiement, il est possible :
 # Objectif
 
 La génération de quittances permet de produire rapidement un document conforme tout en réutilisant les informations déjà enregistrées dans Scalrise.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens** › cliquer sur le bien › onglet **Locataire** › menu du locataire › **Générer une quittance**.

@@ -8,12 +8,6 @@ access: Menu latéral › Entreprenariat › carte Gérer mes objectifs
 
 # Gérer mes objectifs
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Entreprenariat** › carte **Gérer mes objectifs**.
-- Lien direct dans Scalrise : `/entrepreneurship/goals`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir mes objectifs » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Navigation
 
 Entrepreneuriat → Gérer mes objectifs
@@ -221,3 +215,7 @@ Toutes les fonctionnalités sont disponibles gratuitement.
 Non.
 
 Le module est entièrement inclus dans l'offre gratuite.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Entreprenariat** › carte **Gérer mes objectifs**.

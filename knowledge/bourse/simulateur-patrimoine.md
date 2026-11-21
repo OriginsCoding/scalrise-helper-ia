@@ -10,12 +10,6 @@ access: Menu latéral › Bourse › carte Simulateur Patrimoine
 
 # Simulateur Patrimoine
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Bourse** › carte **Simulateur Patrimoine**.
-- Lien direct dans Scalrise : `/stocks/simulator`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir le simulateur » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 Le Simulateur Patrimoine permet d'estimer l'évolution d'un patrimoine investi sur plusieurs années.
@@ -125,3 +119,7 @@ Les hypothèses retenues dépendent uniquement des paramètres renseignés par l
 - Quelle est la différence entre intérêts composés et Monte Carlo ?
 - Le simulateur patrimoine est-il gratuit ?
 - La simulation Monte Carlo est-elle gratuite ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse** › carte **Simulateur Patrimoine**.

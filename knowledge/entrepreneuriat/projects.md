@@ -11,12 +11,6 @@ access: Menu latéral › Entreprenariat › carte Mes projets
 
 # Mes projets
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Entreprenariat** › carte **Mes projets**.
-- Lien direct dans Scalrise : `/projects`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir mes projets » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 Le module **Mes projets** permet de gérer ses projets grâce à un tableau **Kanban**, inspiré d'outils comme **Trello** ou **Jira**.
@@ -295,3 +289,7 @@ Scalia ne doit jamais inventer ces fonctionnalités.
 - Peut-on collaborer sur un projet ?
 - Peut-on gérer un projet de développement ?
 - Peut-on suivre des bugs ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Entreprenariat** › carte **Mes projets**.

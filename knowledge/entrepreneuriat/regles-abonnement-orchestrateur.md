@@ -11,12 +11,6 @@ access: Menu latéral › Entreprenariat › carte Orchestrateur de tâches
 
 # Accès Premium de l'Orchestrateur de tâches
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Entreprenariat** › carte **Orchestrateur de tâches**.
-- Lien direct dans Scalrise : `/entrepreneurship/task-orchestrator`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’Orchestrateur de tâches » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Règle critique
 
 Cette règle doit toujours être mentionnée lorsqu'un utilisateur demande si l'Orchestrateur de tâches est gratuit, accessible sans Premium, inclus dans l'offre gratuite, ou disponible depuis le module Mes tâches.
@@ -38,3 +32,7 @@ Cette règle doit toujours être mentionnée lorsqu'un utilisateur demande si l'
 ### Que débloque Premium sur l'Orchestrateur de tâches ?
 
 > Premium donne l'accès complet à l'Orchestrateur de tâches, inaccessible en offre gratuite.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Entreprenariat** › carte **Orchestrateur de tâches**.

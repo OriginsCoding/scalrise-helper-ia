@@ -10,12 +10,6 @@ access: Menu latéral › Immobilier › carte Mon Parcours Immo › Étape 2
 
 # Trouver le bon bien
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo** › **Étape 2**.
-- Lien direct dans Scalrise : `/real-estate/parcours/step/2`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’étape 2 du Parcours Immo » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 Cette deuxième étape explique comment sélectionner un bon investissement immobilier avant l'achat.
@@ -75,3 +69,7 @@ Après avoir sélectionné une opportunité, l'utilisateur doit vérifier :
 - le coût du financement.
 
 L'outil **Calculs de rentabilité** permet de confirmer si le bien sélectionné est réellement rentable.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo** › **Étape 2**.

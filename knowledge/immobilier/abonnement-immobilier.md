@@ -8,12 +8,6 @@ access: Menu latéral › Mon abonnement
 
 # Abonnement Immobilier
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Mon abonnement**.
-- Lien direct dans Scalrise : `/subscription`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Voir les offres » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Description
 
 Certaines fonctionnalités du module Immobilier sont disponibles gratuitement tandis que d'autres nécessitent un abonnement Premium.
@@ -117,3 +111,7 @@ Premium permet notamment :
 - quittances illimitées
 - envoi des quittances par email
 - accès complet au parcours immobilier
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Mon abonnement**.

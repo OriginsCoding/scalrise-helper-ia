@@ -10,12 +10,6 @@ access: Menu latéral › Immobilier › carte Mon Parcours Immo › Étape 5
 
 # Documents et mise en location
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo** › **Étape 5**.
-- Lien direct dans Scalrise : `/real-estate/parcours/step/5`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’étape 5 du Parcours Immo » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 Cette étape explique tous les documents nécessaires pour louer un logement.
@@ -50,3 +44,7 @@ Elle contient :
 - Comment faire un état des lieux ?
 - Comment générer une quittance ?
 - Cette étape est-elle Premium ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo** › **Étape 5**.

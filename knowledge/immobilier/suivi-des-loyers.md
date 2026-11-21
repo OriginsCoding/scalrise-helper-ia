@@ -8,12 +8,6 @@ access: Menu latéral › Immobilier › carte Gérer mes biens › cliquer sur 
 
 # Suivi des loyers
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens** › cliquer sur le bien › onglet **Locataire**.
-- Lien direct dans Scalrise : `/properties`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Gérer mes biens » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Description
 
 Le suivi des loyers permet de suivre mois par mois les paiements de chaque locataire.
@@ -139,3 +133,7 @@ Les paiements enregistrés alimentent automatiquement :
 # Objectif
 
 Le suivi des loyers permet de gérer l'ensemble des paiements d'un locataire tout en conservant un historique complet et en facilitant la génération des quittances.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens** › cliquer sur le bien › onglet **Locataire**.

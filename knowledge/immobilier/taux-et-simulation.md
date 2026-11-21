@@ -8,12 +8,6 @@ access: Menu latéral › Immobilier › carte Taux & Simulation (ou Outils › 
 
 # Taux & Simulation
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Taux & Simulation** (ou **Outils** › **Simulateur de prêt**).
-- Lien direct dans Scalrise : `/rates`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Taux & Simulation » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 # Description
 
 La page **Taux & Simulation** permet de simuler un crédit immobilier et d'estimer votre capacité d'emprunt à partir de votre situation financière.
@@ -207,3 +201,7 @@ Oui.
 ## Les calculs sont-ils mis à jour automatiquement ?
 
 Oui. Tous les indicateurs sont recalculés instantanément à chaque modification des paramètres.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Taux & Simulation** (ou **Outils** › **Simulateur de prêt**).

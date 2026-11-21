@@ -10,12 +10,6 @@ access: Menu latéral › Outils › carte Générateur QR Code
 
 # Générateur QR Code
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Outils** › carte **Générateur QR Code**.
-- Lien direct dans Scalrise : `/tools/qrcode`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir le générateur de QR code » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 Le Générateur QR Code permet de créer, sauvegarder et télécharger des QR Codes directement depuis Scalrise.
@@ -121,3 +115,7 @@ Scalia ne doit pas inventer ces informations.
 - Comment supprimer un QR Code ?
 - Puis-je réutiliser le même QR Code avec un autre lien ?
 - À quoi sert un QR Code dynamique ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Outils** › carte **Générateur QR Code**.

@@ -11,12 +11,6 @@ access: Menu latéral › Immobilier › carte Gérer mes bailleurs (ou bouton G
 
 # Mes bailleurs
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes bailleurs** (ou bouton **Gérer les bailleurs** dans Gérer mes biens).
-- Lien direct dans Scalrise : `/properties/landlords`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir mes bailleurs » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Objectif de la page
 
 La page **Mes bailleurs** permet de gérer les bailleurs utilisés par les biens, les baux, les quittances et les attestations.
@@ -353,3 +347,7 @@ Les captures ne permettent pas de déterminer :
 - les valeurs complètes de tous les menus déroulants au-delà des options visibles sur les captures.
 
 Scalia ne doit pas inventer ces informations.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes bailleurs** (ou bouton **Gérer les bailleurs** dans Gérer mes biens).

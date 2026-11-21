@@ -10,12 +10,6 @@ access: Menu latéral › Immobilier › carte Mon Parcours Immo
 
 # Parcours Immobilier
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo**.
-- Lien direct dans Scalrise : `/real-estate/parcours`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir le Parcours Immobilier » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 Le Parcours Immobilier est une formation intégrée à Scalrise.
@@ -152,3 +146,7 @@ Préparer le prochain investissement
 - Le parcours parle-t-il des quittances ?
 - Puis-je reprendre une étape plus tard ?
 - Comment marquer une étape comme terminée ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo**.

@@ -11,12 +11,6 @@ access: Menu latéral › Entreprenariat
 
 # Accueil du module Entrepreneuriat
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Entreprenariat**.
-- Lien direct dans Scalrise : `/entrepreneurship`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’Entreprenariat » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Objectif de la page
 
 La page **Entrepreneuriat** centralise les outils de Scalrise liés à l'organisation personnelle, à la gestion de projets, au suivi des objectifs et à la productivité.
@@ -277,3 +271,7 @@ La capture ne permet pas de déterminer :
 - les règles de collaboration dans Mes projets.
 
 Scalia ne doit pas inventer ces informations.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Entreprenariat**.

@@ -11,12 +11,6 @@ access: Menu latéral › Immobilier › carte Gérer mes biens
 
 # Gérer mes biens
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens**.
-- Lien direct dans Scalrise : `/properties`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Gérer mes biens » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Objectif de la page
 
 La page **Gérer mes biens** permet de consulter et gérer les biens immobiliers et les locataires associés.
@@ -385,3 +379,7 @@ Les captures ne permettent pas de déterminer :
 - les règles complètes de calcul des indicateurs.
 
 Scalia ne doit pas inventer ces informations.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens**.

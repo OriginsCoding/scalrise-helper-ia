@@ -10,12 +10,6 @@ access: Menu latéral › Immobilier › carte Mon Parcours Immo › Étape 7
 
 # Préparer le prochain investissement
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo** › **Étape 7**.
-- Lien direct dans Scalrise : `/real-estate/parcours/step/7`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’étape 7 du Parcours Immo » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 Dernière étape du parcours immobilier.
@@ -48,3 +42,7 @@ Elle contient :
 - Quand acheter un deuxième bien ?
 - Comment continuer à investir ?
 - Cette étape est-elle Premium ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo** › **Étape 7**.

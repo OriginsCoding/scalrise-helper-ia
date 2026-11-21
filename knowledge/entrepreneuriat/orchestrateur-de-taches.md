@@ -11,12 +11,6 @@ access: Menu latéral › Entreprenariat › carte Orchestrateur de tâches
 
 # Orchestrateur de tâches
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Entreprenariat** › carte **Orchestrateur de tâches**.
-- Lien direct dans Scalrise : `/entrepreneurship/task-orchestrator`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’Orchestrateur de tâches » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 L’**Orchestrateur de tâches** permet de préparer et générer des tâches récurrentes selon une fréquence définie.
@@ -285,3 +279,7 @@ Scalia ne doit pas inventer ces informations.
 - Peut-on modifier la durée estimée d’une tâche ?
 - Peut-on supprimer une tâche d’un modèle ?
 - Comment réutiliser un modèle existant ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Entreprenariat** › carte **Orchestrateur de tâches**.

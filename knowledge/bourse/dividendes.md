@@ -10,12 +10,6 @@ access: Menu latéral › Bourse › carte Suivi des dividendes
 
 # Suivi des dividendes
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Bourse** › carte **Suivi des dividendes**.
-- Lien direct dans Scalrise : `/stocks/dividends`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir le suivi des dividendes » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 La page **Suivi des dividendes** est accessible depuis :
@@ -115,3 +109,7 @@ La page présente notamment :
 - Que permet le bouton Analyse ?
 - Que permet le bouton Historique ?
 - Peut-on suivre ses revenus passifs ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse** › carte **Suivi des dividendes**.

@@ -11,12 +11,6 @@ access: Menu latéral › Bourse
 
 # Accueil du module Bourse
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Bourse**.
-- Lien direct dans Scalrise : `/stocks`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir la Bourse » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Objectif de la page
 
 La page **Bourse** centralise les fonctionnalités de Scalrise liées au suivi des investissements boursiers, des portefeuilles et des dividendes.
@@ -183,3 +177,7 @@ La capture ne permet pas de déterminer :
 - les actions disponibles dans la gestion des portefeuilles.
 
 Scalia ne doit pas inventer ces informations.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse**.

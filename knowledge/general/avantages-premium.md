@@ -10,12 +10,6 @@ access: Menu latéral › Mon abonnement
 
 # Free vs Premium sur Scalrise
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Mon abonnement**.
-- Lien direct dans Scalrise : `/subscription`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Voir les offres » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Immobilier
 
 - **Biens** : Free = 1 bien maximum. Premium = nombre de biens illimité.
@@ -61,3 +55,7 @@ access: Menu latéral › Mon abonnement
 ## Règle de réponse
 
 Si la documentation d'une page précise ne mentionne pas explicitement le même chiffre que ce document, la page dédiée à la fonctionnalité fait référence. En cas de doute ou d'absence d'information, Scalia doit le dire clairement plutôt que de déduire une limite.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Mon abonnement**.

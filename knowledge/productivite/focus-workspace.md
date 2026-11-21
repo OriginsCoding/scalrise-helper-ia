@@ -11,12 +11,6 @@ access: Menu latéral › Outils › carte Focus Workspace (ou Entreprenariat �
 
 # Focus Workspace
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Outils** › carte **Focus Workspace** (ou **Entreprenariat** › carte **Focus Workspace**).
-- Lien direct dans Scalrise : `/tools/focus`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir le Focus Workspace » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 Le **Focus Workspace** est un espace de travail conçu pour améliorer la concentration.
@@ -193,3 +187,7 @@ Scalia ne doit pas inventer ces informations.
 - Le Focus Workspace aide-t-il à rester concentré ?
 - Existe-t-il un espace de Deep Work ?
 - Comment créer un environnement de concentration ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Outils** › carte **Focus Workspace** (ou **Entreprenariat** › carte **Focus Workspace**).

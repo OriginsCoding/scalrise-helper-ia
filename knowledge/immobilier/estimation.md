@@ -8,12 +8,6 @@ access: Menu latéral › Immobilier › carte Prix au m²
 
 # Estimation immobilière
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Prix au m²**.
-- Lien direct dans Scalrise : `/real-estate/price-per-sqm`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Prix au m² » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## À quoi sert le module ?
 
 Le module Prix au m² aide à estimer la valeur d'un bien immobilier.
@@ -47,3 +41,7 @@ Oui.
 Non.
 
 Il s'agit d'une estimation basée sur les ventes DVF.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Prix au m²**.

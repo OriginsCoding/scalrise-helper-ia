@@ -8,12 +8,6 @@ access: Menu latéral › Immobilier › carte Gérer mes biens › cliquer sur 
 
 # Fiche d'un bien immobilier
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens** › cliquer sur le bien.
-- Lien direct dans Scalrise : `/properties`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Gérer mes biens » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Description
 
 La fiche d'un bien centralise toutes les informations liées à un bien immobilier.
@@ -167,3 +161,7 @@ Les documents utilisent automatiquement les informations enregistrées dans Scal
 Cette page constitue le centre de gestion d'un bien immobilier.
 
 Toutes les opérations concernant un bien sont accessibles depuis cette fiche.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens** › cliquer sur le bien.

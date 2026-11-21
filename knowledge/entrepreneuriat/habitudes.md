@@ -8,12 +8,6 @@ access: Menu latéral › Habitudes (ou Entreprenariat › carte Gérer mes habi
 
 # Mes habitudes
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Habitudes** (ou **Entreprenariat** › carte **Gérer mes habitudes**).
-- Lien direct dans Scalrise : `/habits`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir mes habitudes » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Navigation
 
 Entrepreneuriat → Mes habitudes
@@ -233,3 +227,7 @@ Toutes les fonctionnalités du module Habitudes sont disponibles gratuitement.
 Non.
 
 Le module Habitudes est entièrement gratuit.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Habitudes** (ou **Entreprenariat** › carte **Gérer mes habitudes**).

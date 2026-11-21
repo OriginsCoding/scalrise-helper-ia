@@ -8,12 +8,6 @@ access: Menu latéral › Tâches (ou Entreprenariat › carte Gérer mes tâche
 
 # Mes tâches
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Tâches** (ou **Entreprenariat** › carte **Gérer mes tâches**).
-- Lien direct dans Scalrise : `/tasks`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir mes tâches » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Navigation
 
 Entrepreneuriat → Mes tâches
@@ -366,3 +360,7 @@ L'Orchestrateur de tâches analyse vos tâches et vous aide à :
 Non.
 
 La review hebdomadaire est réservée aux membres Premium.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Tâches** (ou **Entreprenariat** › carte **Gérer mes tâches**).

@@ -10,11 +10,6 @@ access: Menu latéral › Accueil
 
 # Présentation de Scalrise
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Accueil**.
-- Lien direct dans Scalrise : `/home`
-
 ## Qu'est-ce que Scalrise ?
 
 Scalrise est une plateforme web destinée aux entrepreneurs, investisseurs et particuliers souhaitant centraliser la gestion de leur patrimoine, de leurs investissements et de leur productivité.
@@ -166,3 +161,7 @@ Scalia doit pouvoir répondre aux questions suivantes :
 - Est-ce un logiciel pour investisseurs ?
 - Est-ce une application mobile ?
 - Est-ce un site web ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Accueil**.

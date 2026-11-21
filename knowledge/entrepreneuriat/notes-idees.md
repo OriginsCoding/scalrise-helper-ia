@@ -8,12 +8,6 @@ access: Menu latéral › Entreprenariat › carte Notes & Idées
 
 # Notes & idées
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Entreprenariat** › carte **Notes & Idées**.
-- Lien direct dans Scalrise : `/entrepreneurship/notes`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Notes & Idées » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Navigation
 
 Entrepreneuriat → Notes & idées
@@ -296,3 +290,7 @@ Le module est disponible gratuitement avec une limite de 15 notes et d'une note 
 Oui.
 
 Les cartes mentales sont disponibles dans la version gratuite.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Entreprenariat** › carte **Notes & Idées**.

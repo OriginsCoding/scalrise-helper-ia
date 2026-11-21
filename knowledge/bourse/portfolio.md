@@ -10,12 +10,6 @@ access: Menu latéral › Bourse › carte Portfolio
 
 # Portfolio boursier
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Bourse** › carte **Portfolio**.
-- Lien direct dans Scalrise : `/stocks/portfolio`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir le Portfolio » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 La page **Portfolio** est accessible depuis :
@@ -136,3 +130,7 @@ Scalia ne doit pas conclure qu’une fonctionnalité est gratuite uniquement par
 - Peut-on importer automatiquement mes actions depuis ma banque ?
 - Comment accéder au suivi des dividendes ?
 - Peut-on afficher les performances en pourcentage ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse** › carte **Portfolio**.

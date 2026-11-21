@@ -10,12 +10,6 @@ access: Menu latéral › Bourse › carte Mes Portefeuilles
 
 # Mes portefeuilles
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Bourse** › carte **Mes Portefeuilles**.
-- Lien direct dans Scalrise : `/stocks/portfolios`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir mes portefeuilles » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 La page **Mes portefeuilles** est accessible depuis :
@@ -85,3 +79,7 @@ La documentation ne mentionne actuellement aucune limitation Free ou Premium con
 - Peut-on supprimer un portefeuille ?
 - Le portefeuille est-il gratuit ?
 - Existe-t-il une limitation Premium ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse** › carte **Mes Portefeuilles**.

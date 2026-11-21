@@ -10,12 +10,6 @@ access: Menu latéral › Immobilier › carte Mon Parcours Immo › Étape 3
 
 # Financer son projet
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo** › **Étape 3**.
-- Lien direct dans Scalrise : `/real-estate/parcours/step/3`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’étape 3 du Parcours Immo » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 Cette étape explique comment financer un investissement immobilier.
@@ -49,3 +43,7 @@ Elle contient :
 - Comment préparer un dossier bancaire ?
 - Quelle assurance choisir ?
 - Cette leçon est-elle Premium ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo** › **Étape 3**.

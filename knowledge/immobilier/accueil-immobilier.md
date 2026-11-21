@@ -11,12 +11,6 @@ access: Menu latéral › Immobilier
 
 # Accueil du module Immobilier
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier**.
-- Lien direct dans Scalrise : `/real-estate`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’Immobilier » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Objectif de la page
 
 La page **Immobilier** centralise les fonctionnalités de Scalrise liées à la gestion, à l'analyse et au suivi des investissements immobiliers.
@@ -159,3 +153,7 @@ La capture ne permet pas de déterminer :
 - la fréquence de mise à jour des données DVF.
 
 Scalia ne doit pas inventer ces informations.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier**.

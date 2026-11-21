@@ -8,12 +8,6 @@ access: Menu latéral › Immobilier › carte Prix au m²
 
 # Les données DVF
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Prix au m²**.
-- Lien direct dans Scalrise : `/real-estate/price-per-sqm`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Prix au m² » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Qu'est-ce que la base DVF ?
 
 DVF signifie **Demandes de Valeurs Foncières**.
@@ -103,3 +97,7 @@ Les indicateurs affichés par Scalrise (prix moyen, prix médian, tendance...) s
 Oui.
 
 Le module **Immobilier → Prix au m²** permet de rechercher une adresse et d'obtenir automatiquement les statistiques DVF correspondantes.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Prix au m²**.

@@ -10,12 +10,6 @@ access: Menu latéral › Bourse › carte Suivi des dividendes › bouton Analy
 
 # Analytique des dividendes
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Bourse** › carte **Suivi des dividendes** › bouton **Analytique**.
-- Lien direct dans Scalrise : `/stocks/dividends/analytics`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’analytique des dividendes » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Présentation
 
 La page **Analytique des dividendes** est accessible depuis :
@@ -115,3 +109,7 @@ L'Analytique des dividendes ajoute :
 - Puis-je comparer mes dividendes d'une année à l'autre ?
 - Puis-je suivre la croissance de mes dividendes ?
 - Cette fonctionnalité est-elle Premium ?
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse** › carte **Suivi des dividendes** › bouton **Analytique**.

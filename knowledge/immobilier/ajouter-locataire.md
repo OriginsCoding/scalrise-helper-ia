@@ -8,12 +8,6 @@ access: Menu latéral › Immobilier › carte Gérer mes biens › cliquer sur 
 
 # Ajouter un locataire
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens** › cliquer sur le bien › bouton **Ajouter un locataire**.
-- Lien direct dans Scalrise : `/properties`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Gérer mes biens » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Description
 
 Cette fenêtre permet d'ajouter un nouveau locataire dans un bien immobilier.
@@ -112,3 +106,7 @@ Cette fonctionnalité permet notamment de gérer :
 - les colocations
 - plusieurs appartements dans un même immeuble
 - plusieurs locataires successifs grâce à l'historique
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens** › cliquer sur le bien › bouton **Ajouter un locataire**.

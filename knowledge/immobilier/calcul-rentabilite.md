@@ -8,12 +8,6 @@ access: Menu latéral › Immobilier › carte Calculs de rentabilité
 
 # Calcul de rentabilité
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Calculs de rentabilité**.
-- Lien direct dans Scalrise : `/real-estate/profitability`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir le calcul de rentabilité » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 # Description
 
 Le calculateur de rentabilité de Scalrise permet de simuler la rentabilité d'un investissement immobilier avant son achat.
@@ -176,3 +170,7 @@ Le simulateur affiche plusieurs indicateurs comme le rendement brut, le rendemen
 ## Où se trouve le calculateur de rentabilité ?
 
 Immobilier → Calculs de rentabilité.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Calculs de rentabilité**.

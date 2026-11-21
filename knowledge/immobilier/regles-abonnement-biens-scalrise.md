@@ -11,12 +11,6 @@ access: Menu latéral › Immobilier › carte Gérer mes biens
 
 # Limite de biens selon l'abonnement
 
-## Chemin d'accès
-
-- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens**.
-- Lien direct dans Scalrise : `/properties`
-- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Gérer mes biens » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
-
 ## Règle critique
 
 Cette règle doit toujours être mentionnée lorsqu'un utilisateur demande s'il peut gérer plusieurs biens, ajouter un deuxième bien ou connaître la limite de l'offre gratuite.
@@ -48,3 +42,7 @@ Scalia ne doit jamais :
 - dire que la documentation ne précise pas la limite ;
 - confondre cette règle avec les restrictions de **Mon Parcours Immo** ;
 - présenter l'offre gratuite comme permettant plusieurs biens.
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens**.
