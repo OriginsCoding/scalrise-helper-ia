@@ -1,5 +1,5 @@
 ---
-title: Parcours Immobilier - Étape 6
+title: Parcours Immobilier - Étape 6 : Gérer au quotidien
 module: immobilier
 route: /real-estate/parcours/step/6
 page_type: formation

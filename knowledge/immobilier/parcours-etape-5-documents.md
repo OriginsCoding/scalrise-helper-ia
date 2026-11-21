@@ -1,5 +1,5 @@
 ---
-title: Parcours Immobilier - Étape 5
+title: Parcours Immobilier - Étape 5 : Documents et mise en location
 module: immobilier
 route: /real-estate/parcours/step/5
 page_type: formation

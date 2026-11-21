@@ -1,5 +1,5 @@
 ---
-title: Parcours Immobilier - Étape 7
+title: Parcours Immobilier - Étape 7 : Préparer le prochain investissement
 module: immobilier
 route: /real-estate/parcours/step/7
 page_type: formation

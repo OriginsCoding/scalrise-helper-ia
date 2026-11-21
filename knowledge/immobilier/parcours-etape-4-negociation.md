@@ -1,5 +1,5 @@
 ---
-title: Parcours Immobilier - Étape 4
+title: Parcours Immobilier - Étape 4 : Négocier et signer
 module: immobilier
 route: /real-estate/parcours/step/4
 page_type: formation

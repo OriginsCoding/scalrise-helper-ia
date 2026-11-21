@@ -14,11 +14,11 @@ access: Menu latéral › Bourse › carte Suivi des dividendes › bouton Analy
 
 La page **Analytique des dividendes** est accessible depuis :
 
-- **Bourse → Suivi des dividendes → bouton "Analyse"**
+- **Bourse → Suivi des dividendes → bouton "Analytique"**
 
 Cette fonctionnalité est **entièrement réservée aux abonnés Premium**.
 
-Elle permet d'analyser les performances des dividendes perçus par rapport au capital investi et d'évaluer la rentabilité de chaque ligne du portefeuille.
+Elle donne des statistiques avancées sur vos dividendes : elle permet d'analyser les performances des dividendes perçus par rapport au capital investi et d'évaluer la rentabilité de chaque ligne du portefeuille.
 
 ---
 
@@ -102,7 +102,7 @@ L'Analytique des dividendes ajoute :
 
 - Comment analyser mes dividendes ?
 - Qu'est-ce que l'analytique des dividendes ?
-- À quoi sert le bouton Analyse ?
+- À quoi sert le bouton Analytique ?
 - Comment connaître mon rendement sur coût ?
 - Comment savoir quelle action rembourse le plus vite mon capital ?
 - Puis-je voir mon capital récupéré ?

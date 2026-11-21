@@ -1,5 +1,5 @@
 ---
-title: Parcours Immobilier - Étape 1
+title: Parcours Immobilier - Étape 1 : Les fondamentaux du rendement
 module: immobilier
 route: /real-estate/parcours/step/1
 page_type: formation

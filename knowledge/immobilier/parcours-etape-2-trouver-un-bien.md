@@ -1,5 +1,5 @@
 ---
-title: Parcours Immobilier - Étape 2
+title: Parcours Immobilier - Étape 2 : Trouver le bon bien
 module: immobilier
 route: /real-estate/parcours/step/2
 page_type: formation

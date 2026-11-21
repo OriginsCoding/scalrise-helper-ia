@@ -1,5 +1,5 @@
 ---
-title: Parcours Immobilier - Étape 3
+title: Parcours Immobilier - Étape 3 : Financer son projet
 module: immobilier
 route: /real-estate/parcours/step/3
 page_type: formation
