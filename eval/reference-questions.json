@@ -30,7 +30,7 @@
     {"question": "Comment trouver un bien à acheter dans le parcours ?", "expected": ["knowledge/immobilier/parcours-etape-2-trouver-un-bien.md"], "known_issue": "depuis Scalia 11 : parcours-immobilier.md devant de peu (0.687 / 0.673), etape-2 retenue en 2e"},
     {"question": "Comment financer mon achat immobilier dans le parcours ?", "expected": ["knowledge/immobilier/parcours-etape-3-financement.md", "knowledge/immobilier/taux-et-simulation.md"], "known_issue": "avant : parcours-immobilier.md devant (0.774 / 0.750), etape-3 retenue en 2e"},
     {"question": "Comment négocier le prix d'un bien ?", "expected": ["knowledge/immobilier/parcours-etape-4-negociation.md"]},
-    {"question": "Quels documents préparer pour acheter un bien ?", "expected": ["knowledge/immobilier/parcours-etape-5-documents.md"]},
+    {"question": "Quels documents faut-il pour louer un logement ?", "expected": ["knowledge/immobilier/parcours-etape-5-documents.md", "knowledge/immobilier/fiche-bien-scalrise.md"]},
     {"question": "Comment gérer la location après l'achat ?", "expected": ["knowledge/immobilier/parcours-etape-6-gestion-locative.md"]},
     {"question": "Comment préparer mon prochain investissement ?", "expected": ["knowledge/immobilier/parcours-etape-7-prochain-investissement.md"]},
     {"question": "Qu'y a-t-il sur l'accueil du module bourse ?", "expected": ["knowledge/bourse/accueil-bourse-scalrise.md"]},
