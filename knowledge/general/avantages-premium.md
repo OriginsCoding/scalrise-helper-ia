@@ -1,60 +1,100 @@
 ---
-title: Free vs Premium sur Scalrise
+title: Abonnement Premium — ce qu'il permet, prix et essai gratuit
 module: general
 route: /subscription
 page_type: reference-abonnement
-version: 1.0
-action_label: Voir les offres
+version: 2.0
+action_label: Voir les offres Premium
 access: Menu latéral › Mon abonnement
 ---
 
-# Free vs Premium sur Scalrise
+# Abonnement Premium : ce qu'il permet
+
+## En résumé
+
+L'abonnement **Scalrise Premium** débloque toutes les fonctionnalités de Scalrise et lève les limites de l'offre gratuite, dans tous les modules : Immobilier, Bourse, Entreprenariat, Outils et Scalia.
+
+Les principaux avantages :
+
+- **Immobilier** : biens illimités, quittances illimitées et envoi par email, génération du bail (dont bail mobilité), de l'état des lieux, des attestations et des avis d'échéance, revente d'un bien avec crédit, parcours immobilier complet.
+- **Bourse** : portefeuilles illimités, analytique des dividendes (rendement sur coût, croissance du dividende, capital récupéré), notification des dividendes reçus, parcours bourse complet.
+- **Entreprenariat** : tableau de bord avec prévision de trésorerie, Orchestrateur de tâches, bilan des tâches et charge de travail, plus de projets et de membres, CRM sans limite, notes illimitées.
+- **Outils** : QR codes dynamiques, Linktree sans limite de liens.
+- **Scalia** : questions illimitées (5 par jour en offre gratuite).
+
+Un **essai gratuit de 14 jours** est proposé sur toutes les formules.
+
+---
+
+## Prix et formules
+
+| Formule | Prix | Soit par mois |
+|---|---|---|
+| 1 mois | 5,99 € | 5,99 €/mois |
+| 3 mois | 16,99 € | 5,66 €/mois (−5 %) |
+| 6 mois (la plus populaire) | 29,99 € | 5,00 €/mois (−17 %) |
+| 1 an | 49,99 € | 4,17 €/mois (−30 %) |
+
+- **Essai gratuit de 14 jours** avec accès complet. Une carte bancaire est demandée, mais rien n'est prélevé pendant l'essai ; l'abonnement démarre ensuite automatiquement.
+- Paiement par carte bancaire (Visa, Mastercard, American Express) via Stripe, paiement sécurisé.
+- Le compte passe en Premium dès le paiement. L'abonnement se renouvelle automatiquement à la fin de la période, sauf annulation.
+- On peut **annuler à tout moment** et passer à une formule plus longue (différence calculée au prorata).
+- Un **code promo** peut être saisi sur la page des offres.
+- Une fois abonné, la page **Mon abonnement** affiche la formule, le statut et la date de renouvellement, avec le bouton **Gérer mon abonnement**.
+
+---
 
 ## Immobilier
 
-- **Biens** : Free = 1 bien maximum. Premium = nombre de biens illimité.
-- **Quittances de loyer** : Free = 3 quittances PDF par année civile, téléchargement autorisé dans la limite du quota, envoi par email indisponible. Premium = génération, téléchargement et envoi par email illimités.
-- **Parcours Immobilier** (formation en 7 étapes) : Free = étapes 1 et 2 (fondamentaux du rendement, trouver un bien). Premium = étapes 3 à 7 (financement, négociation, documents, gestion locative, prochain investissement).
+- **Biens** : gratuit = 1 bien. Premium = biens illimités.
+- **Quittances de loyer** : gratuit = 3 quittances par année civile, téléchargement PDF uniquement. Premium = quittances illimitées et envoi par email au locataire.
+- **Documents locatifs** (Premium) : génération du bail (vide, meublé, bail mobilité), de l'état des lieux, de l'attestation de loyer, de la fin d'occupation et de l'avis d'échéance.
+- **Revente avec crédit par bien** (Premium) : dans l'onglet Finances de la fiche d'un bien.
+- **Parcours immobilier** : gratuit = étapes 1 et 2. Premium = étapes 3 à 7 (financement, négociation, documents, gestion locative, prochain investissement).
 
 ## Bourse
 
-- **Mes portefeuilles** (création/gestion PEA, CTO) : entièrement gratuit, aucune restriction documentée.
-- **Explorateur Actions & ETF** : entièrement gratuit.
-- **Simulateur Patrimoine** (intérêts composés et Monte Carlo) : entièrement gratuit.
-- **Suivi des dividendes** : Free = suivi complet (historique, graphiques, statistiques, filtrage par portefeuille, export). Premium = bouton **Analyse** (analytique des dividendes).
-- **Analytique des dividendes** : entièrement réservée aux abonnés Premium (rendement sur coût / YoC, évolution annuelle YoY, DGR, capital récupéré, analyses ligne par ligne).
-- **Mon Parcours Bourse** : accessible en partie gratuitement (premières étapes) ; la partie finale/avancée nécessite Premium. Le nombre exact d'étapes gratuites n'est pas documenté précisément — ne pas l'inventer.
+- **Portefeuilles** : gratuit = 2 portefeuilles. Premium = portefeuilles illimités.
+- **Analytique des dividendes** (Premium) : rendement sur coût (YoC), évolution année sur année, croissance du dividende (DGR), capital récupéré, analyse ligne par ligne.
+- **Notification des dividendes reçus** (Premium).
+- **Badge Populaire** des valeurs les plus détenues sur Scalrise (Premium).
+- **Parcours bourse** : premières étapes gratuites, partie avancée en Premium.
+- Gratuits pour tous : suivi des dividendes, explorateur Actions et ETF, simulateur de patrimoine.
 
-## Entrepreneuriat
+## Entreprenariat
 
-- **Mes tâches** : Free = création, modification, suppression, calendrier, priorités, charge de travail, suivi des retards. Premium = review hebdomadaire automatique + accès au bouton ouvrant l'Orchestrateur de tâches.
-- **Orchestrateur de tâches** : entièrement réservé aux abonnés Premium (l'offre gratuite ne permet pas d'y accéder du tout).
-- **Mes habitudes** : entièrement gratuit, aucune restriction.
-- **Gérer mes objectifs** : entièrement gratuit, aucune restriction.
-- **Notes & idées** : Free = jusqu'à 15 notes et 1 note publique partageable. Premium = notes et notes publiques illimitées.
-- **Mes projets (Kanban)** : Free = créer/modifier/supprimer projets et cartes, gérer le tableau Kanban, inviter jusqu'à 2 membres par projet. Premium = jusqu'à 10 projets, jusqu'à 10 membres par projet, fonctionnalités collaboratives avancées. Le nombre exact de projets autorisés en Free n'est pas précisé dans la documentation — ne pas l'inventer.
-- **Tableau de bord entrepreneuriat** : entièrement réservé aux abonnés Premium.
-- **CRM** : disponible en version bêta ; son statut Free/Premium exact n'est pas documenté — ne pas trancher.
+- **Tableau de bord** (Premium) : prévision de trésorerie, meilleurs clients.
+- **Orchestrateur de tâches** (Premium).
+- **Bilan des tâches et charge de travail** (Premium) : statistiques, tâches à réexaminer, charge Semaine / Mois, review hebdomadaire.
+- **Mes projets** : gratuit = 2 projets et 2 membres par projet. Premium = jusqu'à 10 projets et 10 membres par projet, cloche de notifications du projet.
+- **CRM** : gratuit = 15 contacts, 5 opportunités, 1 pipeline, 1 devis et 1 facture par mois. Premium = sans limite, avec en plus l'envoi d'emails de prospection.
+- **Notes et idées** : gratuit = 15 notes et 1 note publique. Premium = illimité.
+- Gratuits pour tous : Mes tâches, Mes habitudes, Mes objectifs.
 
-## Outils
+## Outils et Scalia
 
-- **Générateur QR Code** : QR codes statiques entièrement gratuits et illimités. QR codes dynamiques (lien modifiable après impression, statistiques de scans) réservés aux abonnés Premium.
-- **Focus Workspace** : entièrement gratuit.
+- **QR codes** : statiques gratuits et illimités ; **dynamiques** (lien modifiable après impression, statistiques de scans) en Premium.
+- **Linktree** : gratuit = 5 liens et statistiques sur 7 jours. Premium = liens illimités et statistiques sur 90 jours.
+- **Scalia** : gratuit = 5 questions par jour. Premium = illimité.
+- Focus Workspace : gratuit.
 
 ---
 
 ## Questions auxquelles Scalia doit répondre
 
-- Quelle est la différence entre Free et Premium ?
+- Que permet l'abonnement ?
 - Que débloque l'abonnement Premium ?
+- Quelle est la différence entre l'offre gratuite et Premium ?
+- Combien coûte Premium ? Quels sont les prix ?
+- Y a-t-il un essai gratuit ?
+- Comment s'abonner à Scalrise ?
+- Comment annuler ou gérer mon abonnement ?
 - Qu'est-ce qui est gratuit sur Scalrise ?
-- Quelles fonctionnalités sont réservées à Premium ?
-- Ai-je besoin de Premium pour utiliser Scalrise ?
 - Quelles sont les limites de l'offre gratuite ?
 
 ## Règle de réponse
 
-Si la documentation d'une page précise ne mentionne pas explicitement le même chiffre que ce document, la page dédiée à la fonctionnalité fait référence. En cas de doute ou d'absence d'information, Scalia doit le dire clairement plutôt que de déduire une limite.
+À la question « Que permet l'abonnement ? », Scalia présente les avantages de **tous les modules** (pas seulement les biens), mentionne l'essai gratuit de 14 jours et propose d'ouvrir la page des offres. Si une limite n'est indiquée ni ici ni dans la fiche de la fonctionnalité, Scalia le dit plutôt que de l'inventer.
 
 ## Chemin d'accès
 

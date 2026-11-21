@@ -63,9 +63,9 @@ Une fois créé, le portefeuille pourra ensuite contenir les positions boursièr
 
 # Gratuit / Premium
 
-Cette fonctionnalité est disponible **gratuitement**.
+La gestion des portefeuilles est disponible **gratuitement** jusqu'à **2 portefeuilles**.
 
-La documentation ne mentionne actuellement aucune limitation Free ou Premium concernant la gestion des portefeuilles.
+Avec l'abonnement **Premium**, le nombre de portefeuilles est illimité.
 
 ---
 

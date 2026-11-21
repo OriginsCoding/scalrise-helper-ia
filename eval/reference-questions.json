@@ -104,6 +104,9 @@
     {"question": "Comment inviter un membre dans mon projet Kanban ?", "expected": ["knowledge/entrepreneuriat/projects.md"]},
     {"question": "Comment filtrer les cartes de mon Kanban par type ?", "expected": ["knowledge/entrepreneuriat/projects.md"]},
     {"question": "Quel est le taux moyen des crédits immobiliers selon la Banque de France ?", "expected": ["knowledge/immobilier/taux-et-simulation.md"]},
-    {"question": "Quels onglets contient la fiche d'un bien ?", "expected": ["knowledge/immobilier/fiche-bien-scalrise.md"]}
+    {"question": "Quels onglets contient la fiche d'un bien ?", "expected": ["knowledge/immobilier/fiche-bien-scalrise.md"]},
+    {"question": "Que permet l'abonnement ?", "expected": ["knowledge/general/avantages-premium.md"]},
+    {"question": "Combien coûte l'abonnement Premium ?", "expected": ["knowledge/general/avantages-premium.md"]},
+    {"question": "Y a-t-il un essai gratuit ?", "expected": ["knowledge/general/avantages-premium.md"]}
   ]
 }
