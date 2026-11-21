@@ -1,223 +1,77 @@
 ---
-title: Génération de bail
+title: Contrat de location (assistant de bail)
 module: immobilier
 route: /properties
 action_label: Ouvrir Gérer mes biens
 access: Menu latéral › Immobilier › carte Gérer mes biens › cliquer sur le bien › onglet Documents › Bail (Contrat de location)
 ---
 
-# Génération de bail
+# Contrat de location : créer un bail étape par étape
 
 ## Description
 
-Scalrise permet de générer automatiquement un bail conforme à partir des informations du bien, du bailleur et du locataire.
+Scalrise crée le bail d'un logement étape par étape, comme l'état des lieux. Le bail est prérempli avec les informations déjà enregistrées (bien, bailleur, locataire), le brouillon est sauvegardé automatiquement, puis le bail est généré en PDF et peut être signé électroniquement.
 
-Le document est prérempli afin d'éviter les ressaisies et de réduire les erreurs administratives.
+Trois types de bail sont proposés :
 
----
+- bail meublé ;
+- bail non meublé (location vide) ;
+- bail mobilité (logement meublé de 1 à 10 mois, voir la fiche Bail mobilité).
 
-# Accès
+## Les étapes de l'assistant
 
-Immobilier
+1. **Type et durée** du bail.
+2. **Parties** : bailleur, locataire et garant.
+3. **Logement** : désignation, situation et travaux, mobilier.
+4. **Conditions financières** : loyer hors charges, charges (provision avec régularisation annuelle ou forfait), dépôt de garantie, jour de paiement.
+5. **Clauses et annexes** : révision annuelle du loyer (IRL), entretien de la chaudière, droit de visite, interdiction de sous-location, animaux, ménage à la sortie, encadrement des loyers…
+6. **Vérification** : récapitulatif de chaque étape avec un lien « Modifier ».
+7. **Génération et signature** : création du PDF puis lancement de la signature électronique.
 
-→ Gérer mes biens
+## Ce qui est prérempli
 
-→ Sélectionner un bien
+Un bandeau indique les sources utilisées :
 
-→ Documents
+- la **fiche du bien** : meublé ou non, étage, chauffage, eau chaude, ascenseur, dépendances, charges ;
+- le **bailleur** : identité et coordonnées du propriétaire ;
+- le **modèle de bail** enregistré : clauses et encadrement des loyers ;
+- le **locataire à venir** (celui qui n'a pas encore de bail, sinon le dernier arrivé) : identité, loyer, charges, dépôt, jour de paiement, date d'entrée et garant ;
+- le **dernier locataire parti** : loyer précédent.
 
-→ Bail (Contrat de location)
+Le trimestre IRL de référence est prérempli avec le dernier indice publié à la date de début du bail (par exemple « T3 2026 (148,06) »). Un choix fait à la main est conservé.
 
----
+Tout reste modifiable avant la génération.
 
-# Informations utilisées
+## Brouillon enregistré automatiquement
 
-La génération du bail récupère automatiquement les informations provenant :
+- Le brouillon est enregistré au fur et à mesure, un brouillon par bien.
+- On peut le reprendre plus tard, depuis n'importe quel appareil, avec le bouton **Reprendre le brouillon**, ou recommencer à partir du bien.
+- La carte Bail affiche « Brouillon en cours » tant qu'il existe.
 
-- du bailleur
-- du bien immobilier
-- du locataire
+## Vérification avant génération
 
-Toutes les informations restent modifiables avant la génération finale.
+L'étape de vérification bloque la génération tant qu'il manque une information obligatoire : date d'effet, bailleur, locataire, garant, loyer, ou conditions du bail mobilité. Elle signale aussi ce qu'il faudra pour la signature électronique (les adresses e-mail des signataires).
 
----
+## Génération et signature
 
-# Type de bail
+- Le bail est généré au format PDF, à télécharger ou imprimer.
+- La signature électronique se lance depuis la dernière étape (voir la fiche Signature électronique).
+- Si le bail a été modifié après la génération, il faut le générer de nouveau.
+- Le brouillon est supprimé une fois les invitations de signature envoyées.
+- Générer le bail d'un locataire enregistre sa clause de révision (cochée ou non, trimestre de référence), utilisée ensuite pour la révision annuelle du loyer.
 
-Plusieurs types de bail sont disponibles.
+## Modèle de bail
 
-Actuellement :
+Une configuration peut être enregistrée comme modèle pour réutiliser les mêmes clauses dans les baux suivants.
 
-- Meublé
-- Non meublé
+## Questions auxquelles Scalia doit répondre
 
-Le type sélectionné adapte automatiquement le contenu du contrat.
-
----
-
-# Informations du bailleur
-
-Le bail contient notamment :
-
-- identité
-- date de naissance
-- lieu de naissance
-- adresse
-
-Ces informations proviennent du bailleur associé au bien.
-
----
-
-# Informations du locataire
-
-Le bail reprend automatiquement :
-
-- prénom
-- nom
-- date de naissance
-- lieu de naissance
-- coordonnées
-
----
-
-# Description du logement
-
-Le bail reprend les caractéristiques du logement :
-
-- étage
-- ascenseur
-- type de chauffage
-- production d'eau chaude
-- dépendances
-
----
-
-# Chauffage
-
-Valeurs possibles :
-
-- Non renseigné
-- Individuel gaz
-- Individuel électrique
-- Collectif
-- Pompe à chaleur
-
----
-
-# Eau chaude
-
-Valeurs possibles :
-
-- Non renseigné
-- Individuelle gaz
-- Individuelle électrique
-- Collective
-
----
-
-# Conditions financières
-
-Le bail permet de renseigner :
-
-- loyer hors charges
-- montant des charges
-- dépôt de garantie
-
-Deux modes de charges sont disponibles :
-
-- Provision sur charges avec régularisation annuelle
-- Forfait de charges sans régularisation
-
-Il est également possible d'indiquer :
-
-- le dernier loyer du précédent locataire
-- les charges non récupérables
-
----
-
-# Encadrement des loyers
-
-Le bail permet d'indiquer si le logement est soumis à une zone d'encadrement des loyers.
-
----
-
-# Travaux récents
-
-Les travaux réalisés dans les six derniers mois peuvent être renseignés avec :
-
-- description
-- montant
-
----
-
-# Inventaire du mobilier
-
-Pour les locations meublées, un inventaire peut être constitué.
-
-Chaque ligne contient :
-
-- pièce
-- élément
-
-Exemples :
-
-- Lit
-- Table
-- Chaises
-- Plaques de cuisson
-- Réfrigérateur
-- Four
-- Micro-ondes
-- Vaisselle
-- Étagères
-- Luminaires
-
-Les éléments peuvent être ajoutés ou supprimés librement.
-
----
-
-# Acte de caution
-
-Un acte de caution peut être ajouté au bail.
-
----
-
-# Clauses particulières
-
-Plusieurs clauses peuvent être activées.
-
-Par exemple :
-
-- Révision annuelle (IRL)
-- Entretien chaudière
-- Droit de visite
-- Interdiction de sous-location
-- Animaux domestiques
-- Ménage à la sortie
-
----
-
-# Modèle de bail
-
-Une configuration peut être enregistrée comme modèle afin de réutiliser les mêmes paramètres pour les futurs baux.
-
----
-
-# Génération
-
-Une fois toutes les informations validées, Scalrise génère automatiquement le bail au format PDF.
-
-Le document peut ensuite être :
-
-- téléchargé
-- imprimé
-- envoyé pour signature électronique (fonctionnalité selon disponibilité)
-
----
-
-# Objectif
-
-La génération automatique de bail permet de produire rapidement un contrat complet en réutilisant les informations déjà enregistrées dans Scalrise.
+- Comment créer un bail pour mon locataire ?
+- Comment rédiger un contrat de location ?
+- Le bail est-il prérempli ?
+- Puis-je reprendre un bail commencé sur un autre appareil ?
+- Pourquoi je ne peux pas générer mon bail ?
+- Quels types de bail sont proposés ?
 
 ## Chemin d'accès
 

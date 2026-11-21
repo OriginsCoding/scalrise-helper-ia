@@ -36,12 +36,15 @@ L'utilisateur peut :
 
 # Types de portefeuille disponibles
 
-Actuellement la documentation confirme la prise en charge de :
+Scalrise propose les types suivants :
 
-- **PEA (Plan d'Épargne en Actions)**
-- **CTO (Compte-Titres Ordinaire)**
+- **PEA** (Plan d'Épargne en Actions) et **PEA-PME** ;
+- **CTO** (Compte-Titres Ordinaire) ;
+- **PER** (Plan d'Épargne Retraite) ;
+- **AV** (assurance-vie) ;
+- **PEE**, **PEG** et **PERECO** pour l'épargne salariale (voir la fiche Épargne salariale : blocage, plafonds, abondement, déblocages anticipés).
 
-Ces deux types sont ceux actuellement documentés.
+Les positions acceptent des quantités décimales (par exemple 84,1 parts de fonds).
 
 ---
 
@@ -50,7 +53,7 @@ Ces deux types sont ceux actuellement documentés.
 Lors de la création d'un portefeuille, il est possible de renseigner :
 
 - un nom ;
-- le type de portefeuille (PEA ou CTO) ;
+- le type de portefeuille (PEA, CTO, PER, assurance-vie, PEE…) ;
 - un courtier (optionnel) ;
 - une couleur.
 

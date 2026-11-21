@@ -69,6 +69,20 @@ Pour chaque paiement il est possible d'enregistrer :
 
 ---
 
+# Loyer complet ou prorata
+
+Pour chaque paiement, on choisit ce qui est payé :
+
+- le **loyer mensuel complet** ;
+- un **prorata d'entrée**, quand le locataire arrive en cours de mois ;
+- un **prorata de sortie**, quand il part en cours de mois.
+
+Le prorata est calculé sur les jours réellement occupés dans le mois, d'après les dates du bail. Si l'entrée et la sortie ont lieu le même mois, il porte sur la période occupée. Le motif reste visible dans l'historique des paiements.
+
+Pour voir tous les loyers du mois de tous les biens sur un seul écran, voir la page Loyers du mois.
+
+---
+
 # Méthodes de paiement
 
 Selon la configuration, un paiement peut être enregistré par exemple comme :
