@@ -72,11 +72,24 @@ function Get-DocumentMetadata {
         access = ''
         page_type = ''
         tags = @()
+        follow_up = @()
     }
 
     if ($Content -match '(?s)^---\r?\n(.*?)\r?\n---\r?\n') {
+        $inFollowUp = $false
         foreach ($line in ($Matches[1] -split '\r?\n')) {
-            if ($line -match '^\s*title\s*:\s*(.+?)\s*$') {
+            # follow_up : liste YAML (« - question ») des questions que Scalia propose ensuite.
+            if ($inFollowUp) {
+                if ($line -match '^\s*-\s+(.+?)\s*$') {
+                    $metadata.follow_up += $Matches[1].Trim().Trim('"').Trim("'")
+                    continue
+                }
+                $inFollowUp = $false
+            }
+            if ($line -match '^\s*follow_up\s*:\s*$') {
+                $inFollowUp = $true
+            }
+            elseif ($line -match '^\s*title\s*:\s*(.+?)\s*$') {
                 $metadata.title = $Matches[1].Trim().Trim('"').Trim("'")
             }
             elseif ($line -match '^\s*module\s*:\s*(.+?)\s*$') {
@@ -114,6 +127,42 @@ function Get-DocumentMetadata {
     }
 
     return $metadata
+}
+
+# Questions de la fiche que Scalia propose après sa réponse : la liste follow_up du
+# frontmatter si elle existe, sinon les questions des sections « Questions… » de la fiche.
+function Get-DocumentSuggestions {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Content,
+
+        [string[]]$FollowUp = @(),
+
+        [int]$Max = 12
+    )
+
+    if ($FollowUp.Count -gt 0) {
+        return @($FollowUp | Select-Object -First $Max)
+    }
+
+    $questions = [System.Collections.Generic.List[string]]::new()
+    $inQuestions = $false
+
+    foreach ($line in ($Content -split '\r?\n')) {
+        if ($line -match '^#{1,6}\s+Question\s*:\s*(.+\?)\s*$') {
+            $questions.Add($Matches[1].Trim())
+            continue
+        }
+        if ($line -match '^#{1,6}\s') {
+            $inQuestions = $line -match '^#{1,6}\s+Questions\b'
+            continue
+        }
+        if ($inQuestions -and $line -match '^\s*[-*]\s+(.+\?)\s*$') {
+            $questions.Add($Matches[1].Trim().Trim([char[]]'«» "'))
+        }
+    }
+
+    return @($questions | Select-Object -Unique | Select-Object -First $Max)
 }
 
 function Split-MarkdownIntoChunks {
@@ -321,6 +370,8 @@ $relativePath = $relativePath.Replace("\", "/")
 
     $metadata = Get-DocumentMetadata -Content $content -RelativePath $relativePath -DefaultTitle $file.BaseName
     Write-Host "Métadonnées : module=$($metadata.module) route=$($metadata.route) tags=$($metadata.tags -join ', ')"
+    $suggestions = @(Get-DocumentSuggestions -Content $content -FollowUp $metadata.follow_up)
+    Write-Host "Questions proposées ensuite : $($suggestions.Count)"
 
     $chunkNumber = 0
 
@@ -388,6 +439,7 @@ $relativePath = $relativePath.Replace("\", "/")
             access = $metadata.access
             page_type = $metadata.page_type
             tags = $metadata.tags
+            suggestions = $suggestions
             chunk = $chunkNumber
             chunkCount = $chunks.Count
             content = $chunkText

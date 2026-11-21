@@ -4,6 +4,10 @@ module: immobilier
 route: /properties
 action_label: Ouvrir Gérer mes biens
 access: Menu latéral › Immobilier › carte Gérer mes biens › cliquer sur le bien
+follow_up:
+  - Comment ajouter un locataire à mon logement ?
+  - Comment créer un bail pour mon locataire ?
+  - Combien vaut mon appartement ?
 ---
 
 # Fiche d'un bien immobilier

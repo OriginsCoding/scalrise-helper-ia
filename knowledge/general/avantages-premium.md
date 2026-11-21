@@ -6,6 +6,10 @@ page_type: reference-abonnement
 version: 2.0
 action_label: Voir les offres Premium
 access: Menu latéral › Mon abonnement
+follow_up:
+  - Que contient l'abonnement immobilier Premium ?
+  - Y a-t-il un essai gratuit ?
+  - Combien coûte l'abonnement Premium ?
 ---
 
 # Abonnement Premium : ce qu'il permet

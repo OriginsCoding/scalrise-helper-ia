@@ -4,6 +4,10 @@ module: immobilier
 route: /real-estate/price-per-sqm
 action_label: Ouvrir Prix au m²
 access: Menu latéral › Immobilier › carte Prix au m²
+follow_up:
+  - Quel est le prix au m² dans ma ville ?
+  - Quels sont les départements les plus chers sur la carte des prix ?
+  - Combien vaut mon appartement ?
 ---
 
 # Les données DVF

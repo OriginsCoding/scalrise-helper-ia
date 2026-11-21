@@ -7,6 +7,10 @@ version: 1.0
 source: capture d'écran Scalrise
 action_label: Ouvrir l’Immobilier
 access: Menu latéral › Immobilier
+follow_up:
+  - Comment ajouter un bien immobilier ?
+  - Comment créer un bail pour mon locataire ?
+  - Comment savoir si mon locataire a payé son loyer ?
 ---
 
 # Accueil du module Immobilier

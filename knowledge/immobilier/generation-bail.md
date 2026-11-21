@@ -4,6 +4,10 @@ module: immobilier
 route: /properties
 action_label: Ouvrir Gérer mes biens
 access: Menu latéral › Immobilier › carte Gérer mes biens › cliquer sur le bien › onglet Documents › Bail (Contrat de location)
+follow_up:
+  - Comment faire signer le bail électroniquement ?
+  - Comment faire l'état des lieux de sortie ?
+  - Qu'est-ce qu'un bail mobilité ?
 ---
 
 # Contrat de location : créer un bail étape par étape

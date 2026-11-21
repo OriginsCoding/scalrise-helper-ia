@@ -4,6 +4,10 @@ module: immobilier
 route: /real-estate/profitability
 action_label: Ouvrir le calcul de rentabilité
 access: Menu latéral › Immobilier › carte Calculs de rentabilité
+follow_up:
+  - Quel est le prix au m² dans ma ville ?
+  - Où se trouve le simulateur de crédit immobilier ?
+  - Vaut-il mieux acheter ou louer sa résidence principale ?
 ---
 
 # Calcul de rentabilité

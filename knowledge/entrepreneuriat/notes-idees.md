@@ -4,6 +4,9 @@ module: entrepreneuriat
 route: /entrepreneurship/notes
 action_label: Ouvrir Notes & Idées
 access: Menu latéral › Entreprenariat › carte Notes & Idées
+follow_up:
+  - Comment créer un projet avec un tableau Kanban ?
+  - Comment créer une tâche avec une échéance ?
 ---
 
 # Notes & idées

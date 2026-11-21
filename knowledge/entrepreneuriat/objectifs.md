@@ -4,6 +4,9 @@ module: entrepreneuriat
 route: /entrepreneurship/goals
 action_label: Ouvrir mes objectifs
 access: Menu latéral › Entreprenariat › carte Gérer mes objectifs
+follow_up:
+  - Comment créer une habitude ?
+  - Comment créer une tâche avec une échéance ?
 ---
 
 # Gérer mes objectifs

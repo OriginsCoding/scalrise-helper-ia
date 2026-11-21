@@ -4,6 +4,10 @@ module: immobilier
 route: /rates
 action_label: Ouvrir Taux & Simulation
 access: Menu latéral › Immobilier › carte Taux & Simulation (ou Outils › Simulateur de prêt)
+follow_up:
+  - Scalrise calcule-t-il mon taux d'endettement ?
+  - Comment calculer la rentabilité d'un investissement locatif ?
+  - Vaut-il mieux acheter ou louer sa résidence principale ?
 ---
 
 # Taux & Simulation

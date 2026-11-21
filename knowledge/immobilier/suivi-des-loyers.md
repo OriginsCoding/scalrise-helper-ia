@@ -4,6 +4,10 @@ module: immobilier
 route: /properties
 action_label: Ouvrir Gérer mes biens
 access: Menu latéral › Immobilier › carte Gérer mes biens › cliquer sur le bien › onglet Locataire
+follow_up:
+  - Quels locataires sont en retard de paiement ce mois-ci ?
+  - Comment générer une quittance de loyer ?
+  - Comment augmenter le loyer avec l'IRL ?
 ---
 
 # Suivi des loyers

@@ -4,6 +4,9 @@ module: entrepreneuriat
 route: /habits
 action_label: Ouvrir mes habitudes
 access: Menu latéral › Habitudes (ou Entreprenariat › carte Gérer mes habitudes)
+follow_up:
+  - Comment créer une tâche avec une échéance ?
+  - Quelle est la différence entre un objectif de résultat et un objectif d'action ?
 ---
 
 # Mes habitudes

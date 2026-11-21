@@ -6,6 +6,10 @@ page_type: fonctionnalité
 version: 1.0
 action_label: Ouvrir le suivi des dividendes
 access: Menu latéral › Bourse › carte Suivi des dividendes
+follow_up:
+  - Comment connaître le rendement sur coût de mes dividendes ?
+  - Comment ajouter une action dans mon portefeuille ?
+  - Comment créer un portefeuille PEA ?
 ---
 
 # Suivi des dividendes

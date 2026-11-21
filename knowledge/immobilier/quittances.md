@@ -4,6 +4,10 @@ module: immobilier
 route: /properties
 action_label: Ouvrir Gérer mes biens
 access: Menu latéral › Immobilier › carte Gérer mes biens › cliquer sur le bien › onglet Locataire › menu du locataire › Générer une quittance
+follow_up:
+  - Comment savoir si mon locataire a payé son loyer ?
+  - Comment augmenter le loyer avec l'IRL ?
+  - Que contient l'abonnement immobilier Premium ?
 ---
 
 # Génération de quittances

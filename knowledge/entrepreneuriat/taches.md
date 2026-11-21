@@ -4,6 +4,10 @@ module: entrepreneuriat
 route: /tasks
 action_label: Ouvrir mes tâches
 access: Menu latéral › Tâches (ou Entreprenariat › carte Gérer mes tâches)
+follow_up:
+  - Comment programmer des tâches récurrentes mensuelles ?
+  - Comment voir les statistiques de mes tâches ?
+  - Comment créer un projet avec un tableau Kanban ?
 ---
 
 # Mes tâches

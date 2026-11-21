@@ -7,6 +7,10 @@ version: 1.0
 source: capture d'écran Scalrise
 action_label: Ouvrir la Bourse
 access: Menu latéral › Bourse
+follow_up:
+  - Comment créer un portefeuille PEA ?
+  - Comment suivre mes dividendes ?
+  - Comment rechercher un ETF ?
 ---
 
 # Accueil du module Bourse

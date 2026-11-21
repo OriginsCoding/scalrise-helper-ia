@@ -4,6 +4,10 @@ module: immobilier
 route: /real-estate/price-per-sqm
 action_label: Ouvrir Prix au m²
 access: Menu latéral › Immobilier › carte Prix au m² › Estimer un bien
+follow_up:
+  - Comment corriger la valeur estimée de mon bien ?
+  - Quel est le prix au m² dans ma ville ?
+  - Quand puis-je revendre mon bien sans perdre d'argent ?
 ---
 
 # Estimation immobilière

@@ -7,6 +7,10 @@ version: 1.1
 source: captures d'écran Scalrise
 action_label: Ouvrir Gérer mes biens
 access: Menu latéral › Immobilier › carte Gérer mes biens
+follow_up:
+  - Que trouve-t-on dans la fiche d'un bien ?
+  - Comment ajouter un locataire à mon logement ?
+  - Combien de biens puis-je gérer avec l'offre gratuite ?
 ---
 
 # Gérer mes biens

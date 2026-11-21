@@ -6,6 +6,10 @@ page_type: fonctionnalité
 version: 1.0
 action_label: Ouvrir mes positions
 access: Menu latéral › Bourse › carte Portfolio (ou ouvrir un portefeuille depuis Mes Portefeuilles)
+follow_up:
+  - Peut-on importer ses positions avec un fichier CSV ?
+  - Comment suivre mes dividendes ?
+  - Comment voir la répartition de mon portefeuille par secteur ?
 ---
 
 # Positions boursières

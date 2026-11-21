@@ -7,6 +7,10 @@ version: 1.0
 route: /properties
 action_label: Ouvrir Gérer mes biens
 access: Menu latéral › Immobilier › carte Gérer mes biens
+follow_up:
+  - Que contient l'abonnement immobilier Premium ?
+  - Y a-t-il un essai gratuit ?
+  - Combien coûte l'abonnement Premium ?
 ---
 
 # Limite de biens selon l'abonnement

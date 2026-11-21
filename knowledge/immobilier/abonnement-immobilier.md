@@ -4,6 +4,10 @@ module: immobilier
 route: /subscription
 action_label: Voir les offres Premium
 access: Menu latéral › Mon abonnement
+follow_up:
+  - Comment faire signer le bail électroniquement ?
+  - Comment faire l'état des lieux de sortie ?
+  - Combien coûte l'abonnement Premium ?
 ---
 
 # Abonnement Premium et module Immobilier

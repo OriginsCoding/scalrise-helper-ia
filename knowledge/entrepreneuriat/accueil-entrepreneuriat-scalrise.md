@@ -7,6 +7,10 @@ version: 1.0
 source: capture d'écran Scalrise
 action_label: Ouvrir l’Entreprenariat
 access: Menu latéral › Entreprenariat
+follow_up:
+  - Comment créer un projet avec un tableau Kanban ?
+  - Comment créer une tâche avec une échéance ?
+  - Comment suivre mes prospects commerciaux ?
 ---
 
 # Accueil du module Entrepreneuriat

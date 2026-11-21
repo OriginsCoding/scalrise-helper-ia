@@ -6,6 +6,10 @@ page_type: présentation
 version: 1.0
 action_label: 
 access: Menu latéral › Accueil
+follow_up:
+  - Que permet l'abonnement ?
+  - Qu'y a-t-il sur l'accueil du module immobilier ?
+  - Qu'y a-t-il sur l'accueil du module bourse ?
 ---
 
 # Présentation de Scalrise

@@ -4,6 +4,10 @@ module: immobilier
 route: /properties
 action_label: Ouvrir Gérer mes biens
 access: Menu latéral › Immobilier › carte Gérer mes biens › cliquer sur le bien › bouton Ajouter un locataire
+follow_up:
+  - Comment créer un bail pour mon locataire ?
+  - Comment générer une quittance de loyer ?
+  - Comment savoir si mon locataire a payé son loyer ?
 ---
 
 # Ajouter un locataire

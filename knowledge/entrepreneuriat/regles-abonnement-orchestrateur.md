@@ -7,6 +7,10 @@ version: 1.0
 route: /entrepreneurship/task-orchestrator
 action_label: Ouvrir l’Orchestrateur de tâches
 access: Menu latéral › Entreprenariat › carte Orchestrateur de tâches
+follow_up:
+  - Comment programmer des tâches récurrentes mensuelles ?
+  - Que permet l'abonnement ?
+  - Y a-t-il un essai gratuit ?
 ---
 
 # Accès Premium de l'Orchestrateur de tâches
