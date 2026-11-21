@@ -1,116 +1,54 @@
 ---
-title: Abonnement Immobilier
+title: Abonnement Premium et module Immobilier — ce qui est gratuit, ce qui est Premium
 module: immobilier
 route: /subscription
-action_label: Voir les offres
+action_label: Voir les offres Premium
 access: Menu latéral › Mon abonnement
 ---
 
-# Abonnement Immobilier
+# Abonnement Premium et module Immobilier
 
-## Description
+## En résumé
 
-Certaines fonctionnalités du module Immobilier sont disponibles gratuitement tandis que d'autres nécessitent un abonnement Premium.
+Le module Immobilier s'utilise gratuitement pour suivre un bien. L'abonnement **Premium** permet de gérer autant de biens que l'on veut et débloque tous les documents locatifs : bail assisté avec signature électronique, état des lieux, quittances illimitées, attestations et avis d'échéance.
 
-Tags :
-premium
-gratuit
-quota
-quittance
-email
-limite
-abonnement
+Un essai gratuit de 14 jours est proposé sur toutes les formules (à partir de 4,17 € par mois avec la formule 1 an).
 
 ---
 
-# Gestion des biens
+## Ce que débloque Premium
 
-## Offre gratuite
-
-- 1 bien maximum
-
-Lorsque la limite est atteinte, Scalrise affiche un message invitant à passer à Premium.
-
-## Offre Premium
-
-- Nombre de biens illimité
-
----
-
-# Quittances
-
-## Offre gratuite
-
-- 3 quittances PDF par année civile
-- téléchargement PDF autorisé
-- envoi par email non disponible
-
-## Offre Premium
-
-- génération illimitée de quittances
-- téléchargement PDF
-- envoi illimité par email
+- **Biens illimités** : l'offre gratuite est limitée à 1 bien. Une fois la limite atteinte, Scalrise affiche « Limite atteinte » et propose « Voir les offres ».
+- **Bail assisté étape par étape** : bail vide, meublé ou bail mobilité, avec contrôle des clauses, aperçu et génération du PDF.
+- **Signature électronique du bail** : elle se lance après la génération du bail dans l'assistant ; le bail signé est ensuite consultable dans l'onglet Documents du bien.
+- **État des lieux** d'entrée et de sortie, pièce par pièce, avec photos et PDF.
+- **Autres documents locatifs** : attestation de loyer, avis d'échéance et attestation de fin d'occupation.
+- **Quittances de loyer illimitées**, sans filigrane, et **envoi par email** au locataire.
+- **Attestation de loyers payés** sans filigrane.
+- **Revente avec crédit sur un bien** : dans l'onglet Finances de la fiche du bien, simulation sur les vraies données du bien, avec vos hypothèses enregistrées.
+- **Parcours immobilier complet** : étapes 3 à 7 (financement, négociation, documents, gestion locative, prochain investissement).
 
 ---
 
-# Parcours Immobilier
+## Ce qui reste gratuit
 
-## Offre gratuite
-
-Les premiers chapitres sont accessibles gratuitement.
-
-## Offre Premium
-
-Accès à l'ensemble du parcours immobilier.
+- 1 bien avec sa fiche complète : locataires, suivi des loyers et loyers du mois, révision du loyer (IRL), échéances à venir, prêts du bien, valeur estimée.
+- **Quittances** : 3 par année civile, en téléchargement PDF, avec la mention Scalrise en filigrane ; pas d'envoi par email. Le quota repart à zéro chaque 1er janvier.
+- Candidatures, visites et annonces de location.
+- Prix au m² et carte des prix, taux et simulation de crédit, calculateur de rentabilité, « Acheter ou louer ? » et simulateur de revente général.
+- Parcours immobilier : étapes 1 et 2.
 
 ---
 
-# Questions fréquentes
+## Questions auxquelles Scalia doit répondre
 
-## Combien de biens puis-je gérer ?
-
-Gratuit : 1 bien.
-
-Premium : nombre illimité.
-
----
-
-## Combien de quittances puis-je générer ?
-
-Gratuit : 3 par année civile.
-
-Premium : illimité.
-
----
-
-## Puis-je envoyer une quittance par email ?
-
-Uniquement avec Premium.
-
----
-
-## Quand le quota est-il remis à zéro ?
-
-Le quota de génération de quittances est réinitialisé chaque année civile.
-
----
-
-## Pourquoi ne puis-je plus ajouter un bien ?
-
-Vous avez atteint la limite de l'offre gratuite.
-
-Passez à Premium pour gérer plusieurs biens.
-
----
-
-## Que débloque Premium ?
-
-Premium permet notamment :
-
-- biens illimités
-- quittances illimitées
-- envoi des quittances par email
-- accès complet au parcours immobilier
+- Que contient l'abonnement immobilier Premium ?
+- Que débloque Premium pour l'immobilier ?
+- Le bail et l'état des lieux sont-ils gratuits ?
+- La signature électronique est-elle Premium ?
+- Combien de quittances puis-je générer gratuitement ?
+- Puis-je envoyer une quittance par email ?
+- Pourquoi ne puis-je plus ajouter un bien ?
 
 ## Chemin d'accès
 
