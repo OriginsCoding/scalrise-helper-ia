@@ -221,8 +221,7 @@ Le menu latéral permet notamment d'accéder aux modules suivants :
 - Tâches ;
 - Bibliothèque ;
 - Mon abonnement ;
-- Outils ;
-- Admin.
+- Outils.
 
 La page affiche également un bouton de retour vers **Accueil**.
 

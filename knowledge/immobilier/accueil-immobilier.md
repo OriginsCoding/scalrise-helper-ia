@@ -29,6 +29,10 @@ Cette page sert de point d'entrée vers les différents outils immobiliers.
 
 ## Fonctionnalités disponibles
 
+### Cockpit patrimonial
+
+Carte placée en tête de la page (et aussi en tête de la page Bourse) : elle ouvre la **Synthèse**, qui réunit immobilier, bourse et crypto (patrimoine net, cashflow et répartition en un coup d'œil).
+
 ### Gérer mes biens
 
 Cette rubrique permet de :
@@ -73,6 +77,14 @@ Cette rubrique permet d'effectuer des calculs liés à un investissement immobil
 - le retour sur investissement, ou ROI.
 
 Le bouton **Accéder** ouvre les outils de calcul.
+
+### Revendre avec un crédit
+
+Cette rubrique indique à partir de quelle année on peut revendre un bien acheté à crédit sans perdre d'argent (voir la fiche Revente avec crédit).
+
+### Acheter ou louer
+
+Cette rubrique compare l'achat de sa résidence avec crédit et la location en plaçant la différence en bourse (voir la fiche Acheter ou louer ?).
 
 ### Prix au m²
 
@@ -128,7 +140,7 @@ La page affiche également un bouton de retour vers **Accueil**.
 
 Scalia peut répondre :
 
-> Le module Immobilier permet de gérer vos biens et vos bailleurs, suivre votre parcours immobilier, calculer la rentabilité d'un investissement, consulter les prix au m², explorer une carte des prix et simuler un prêt.
+> Le module Immobilier permet de gérer vos biens et vos bailleurs, suivre votre parcours immobilier, calculer la rentabilité d'un investissement, savoir quand revendre un bien acheté à crédit, comparer achat et location, consulter les prix au m², explorer une carte des prix et simuler un prêt. La carte Cockpit patrimonial ouvre la synthèse de tout votre patrimoine.
 
 ### Question : Mon Parcours Immo est-il Premium ?
 

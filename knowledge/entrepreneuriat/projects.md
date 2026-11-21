@@ -191,20 +191,50 @@ Chaque sous-tâche peut être ajoutée directement depuis la carte.
 
 # Gestion d'équipe
 
-Chaque projet possède une équipe.
+Chaque projet possède une équipe : maximum **2 membres** en version gratuite, jusqu'à **10 membres** en Premium.
 
-En version gratuite :
+## Rôles
 
-- maximum **2 membres**.
+Quatre rôles : **Créateur**, **Admin**, **Membre** et **Lecteur**. Le créateur et les admins du projet peuvent régler finement, rôle par rôle, qui a le droit de créer, modifier ou supprimer les colonnes, les tâches et les sous-tâches, et d'inviter des membres.
 
-En Premium :
+## Inviter un membre
 
-- jusqu'à **10 membres**.
+On invite un collaborateur par son e-mail. S'il n'a pas encore de compte Scalrise, il reçoit un e-mail d'invitation avec un lien pour rejoindre le projet.
 
-Les membres peuvent être :
+## Gérer le projet
 
-- propriétaire ;
-- membre.
+- Le créateur et les admins peuvent renommer le projet directement.
+- Une colonne peut être supprimée, après confirmation, en supprimant ses cartes ou en les déplaçant dans une autre colonne.
+
+---
+
+# Rechercher et filtrer les cartes
+
+Les filtres sont placés entre le nom du projet et la cloche de notification, et s'adaptent aux petits écrans :
+
+- **recherche par mot-clé** dans le titre des tâches et des sous-tâches, sans tenir compte des majuscules ;
+- **filtre par type** : Tout, Fonctionnalité, Bug, Amélioration, Tâche ou « Sans type », avec sélection multiple.
+
+---
+
+# Lien avec « Mes tâches »
+
+- Les tâches et sous-tâches qui vous sont assignées dans un projet apparaissent automatiquement dans **Mes tâches**.
+- Le statut est synchronisé dans les deux sens entre les colonnes du Kanban et les statuts de Mes tâches (à faire, en cours, terminée).
+- Dans Mes tâches, un filtre par projet permet de n'afficher que les tâches d'un projet.
+
+---
+
+# Notifications et récapitulatif hebdomadaire
+
+- **Cloche du projet** : les abonnés Premium créateurs ou admins d'un projet peuvent activer les notifications du projet. Une notification arrive à la création d'une tâche ou à un changement de statut (sauf pour l'auteur de l'action), avec un lien direct vers le tableau.
+- **Récap hebdo** : l'e-mail « Votre récap hebdo Scalrise » contient une section projets avec les nouvelles tâches et les changements de colonne ou de statut de la semaine, avec leur auteur et leur date.
+
+---
+
+# Créer un premier projet avec le tutoriel
+
+Le tutoriel Kanban guide la création d'un premier projet, vide ou à partir d'un modèle (personnel, entreprise, événement), avec un aperçu des tâches proposées. Rien n'est créé sans confirmation.
 
 ---
 
@@ -246,7 +276,6 @@ Scalia peut utiliser ces comparaisons pour aider l'utilisateur à comprendre rap
 
 Les captures ne permettent pas de confirmer :
 
-- les notifications ;
 - les commentaires ;
 - les pièces jointes ;
 - l'historique des modifications ;

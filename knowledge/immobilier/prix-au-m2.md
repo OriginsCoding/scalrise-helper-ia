@@ -10,241 +10,85 @@ access: Menu latéral › Immobilier › carte Prix au m²
 
 ## Présentation
 
-Le module **Prix au m²** permet d'estimer rapidement les prix de l'immobilier autour d'une adresse en s'appuyant sur les données DVF (Demandes de Valeurs Foncières).
+Le module **Prix au m²** affiche les prix immobiliers réels autour d'une adresse, à partir des ventes enregistrées dans la base publique DVF (Demandes de valeurs foncières). Il permet aussi d'estimer un bien (voir la fiche Estimation immobilière).
 
 Il permet notamment de :
 
-- consulter le prix moyen d'un secteur ;
-- consulter le prix médian ;
-- analyser les transactions immobilières récentes ;
-- observer l'évolution des prix dans le temps ;
-- comparer les ventes selon le type de bien.
+- consulter le prix médian et le prix moyen au m² d'un secteur ;
+- voir les ventes récentes autour d'une adresse ;
+- suivre l'évolution des prix et la tendance du marché ;
+- comparer appartements et maisons.
 
-Le module est accessible depuis :
+---
 
-**Immobilier → Prix au m²**
+# Données utilisées
+
+- Les données sont celles publiées par la DGFiP sur data.gouv.fr : ce sont les ventes réellement enregistrées.
+- La page charge automatiquement les **5 dernières années publiées** (aujourd'hui **2021 à 2025**).
+- DVF est publié deux fois par an (avril et octobre), avec plusieurs mois de décalage : les toutes dernières ventes n'y figurent pas encore.
+- Seules les ventes de **logements** sont retenues (appartements et maisons). Les locaux commerciaux, les ventes mêlant maison et appartement, les échanges et les adjudications sont exclus.
+- Une vente en plusieurs lots compte une seule fois, sur la surface totale de ses logements, avec un badge « n logements » pour les ventes en bloc.
 
 ---
 
 # Recherche d'une adresse
 
-La recherche s'effectue à partir d'une adresse.
-
-Une saisie d'au moins **3 caractères** est nécessaire pour lancer les suggestions d'adresses.
-
-Une fois une adresse sélectionnée, Scalrise charge automatiquement les statistiques immobilières du secteur.
+Saisir au moins **3 caractères** pour obtenir des suggestions d'adresses, puis choisir l'adresse : les statistiques du secteur se chargent automatiquement.
 
 ---
 
-# Filtres disponibles
+# Filtres
 
-Plusieurs filtres permettent d'affiner les résultats.
-
-## Source des données
-
-Deux jeux de données sont disponibles :
-
-- Récentes (2020-2025)
-- Historiques (2014-2019)
-
----
-
-## Type de bien
-
-Les résultats peuvent être filtrés par :
-
-- Tous
-- Appartement
-- Maison
-
----
-
-## Rayon de recherche
-
-Les statistiques peuvent être calculées sur plusieurs rayons autour de l'adresse :
-
-- 200 m
-- 500 m
-- 1 km
-- 2 km
-
----
-
-## Période
-
-Les données peuvent être limitées à différentes périodes :
-
-- Toutes
-- 5 ans
-- 2 ans
-- 1 an
+- **Type de bien** : tous, appartement ou maison.
+- **Rayon** : 200 m, 500 m, 1 km ou 2 km autour de l'adresse.
+- **Période** : toutes les années disponibles, 2 ans ou 1 an.
 
 ---
 
 # Statistiques affichées
 
-Après la recherche, Scalrise affiche plusieurs indicateurs.
-
-## Prix médian
-
-Prix médian au m² des ventes correspondant aux filtres sélectionnés.
-
----
-
-## Prix moyen
-
-Prix moyen au m².
+- **Prix médian** au m².
+- **Fourchette centrale** : l'intervalle qui contient la moitié des ventes.
+- **Prix moyen**, prix minimum et prix maximum au m².
+- **Nombre de ventes** et années couvertes.
+- **Tendance** : les 12 derniers mois comparés aux 12 précédents (en hausse, stable, en baisse). « Pas assez de ventes » s'affiche quand il y a moins de 8 ventes de chaque côté.
+- **Évolution des prix** : graphique du prix médian au m² par trimestre.
 
 ---
 
-## Prix minimum
+# Ventes récentes
 
-Prix au m² le plus faible observé.
-
----
-
-## Prix maximum
-
-Prix au m² le plus élevé observé.
+Chaque vente affiche son adresse, son prix au m², son prix de vente, le type de bien, la surface, le nombre de pièces, la date et, pour une maison, le terrain quand il est connu.
 
 ---
 
-## Nombre de transactions
+# Départements non couverts
 
-Nombre total de ventes utilisées pour calculer les statistiques.
-
----
-
-## Tendance
-
-Indication générale de l'évolution du marché :
-
-- En hausse
-- Stable
-- En baisse
-
----
-
-# Évolution des prix
-
-Un graphique affiche l'évolution du prix moyen au m² au fil du temps.
-
-Il permet notamment :
-
-- d'identifier les hausses ;
-- d'identifier les baisses ;
-- d'observer la stabilité du marché.
-
----
-
-# Transactions récentes
-
-Le module affiche également les dernières ventes correspondant aux filtres.
-
-Chaque transaction présente notamment :
-
-- prix au m² ;
-- prix de vente ;
-- type de bien ;
-- surface ;
-- nombre de pièces ;
-- date de vente ;
-- terrain (pour les maisons lorsque disponible).
-
----
-
-# Utilisation
-
-Le module permet notamment :
-
-- d'estimer la valeur d'un bien ;
-- de comparer un prix d'achat avec le marché ;
-- d'étudier un quartier avant un investissement ;
-- d'analyser les ventes récentes autour d'une adresse.
+Le Bas-Rhin, le Haut-Rhin, la Moselle (Alsace-Moselle, qui a son propre registre foncier) et Mayotte sont absents de DVF : la page l'explique au lieu d'afficher « aucun résultat ».
 
 ---
 
 # Questions fréquentes
 
-## Puis-je connaître le prix d'un bien grâce à son adresse ?
+## Puis-je connaître le prix au m² d'un quartier ?
 
-Oui.
-
-Depuis Immobilier → Prix au m², recherchez l'adresse du bien.
-
-Scalrise calcule automatiquement les prix du secteur à partir des données DVF.
-
----
+Oui. Recherchez une adresse : Scalrise calcule les prix du secteur à partir des ventes DVF.
 
 ## Puis-je consulter uniquement les appartements ?
 
-Oui.
-
-Le filtre **Type de bien** permet de choisir :
-
-- Tous
-- Appartement
-- Maison
-
----
+Oui, avec le filtre **Type de bien**.
 
 ## Puis-je agrandir la zone de recherche ?
 
-Oui.
+Oui, avec le filtre **Rayon** (jusqu'à 2 km).
 
-Vous pouvez choisir un rayon de :
+## Les données sont-elles à jour ?
 
-- 200 m
-- 500 m
-- 1 km
-- 2 km
-
----
-
-## Puis-je consulter uniquement les ventes récentes ?
-
-Oui.
-
-Le filtre **Source des données** permet de choisir les données :
-
-- Récentes (2020-2025)
-- Historiques (2014-2019)
-
----
-
-## À quoi sert ce module ?
-
-Il permet d'estimer le marché immobilier autour d'une adresse grâce aux données DVF afin d'aider à préparer un investissement immobilier.
-
----
+Elles couvrent les 5 dernières années publiées par DVF (2021 à 2025 aujourd'hui), avec quelques mois de décalage.
 
 ## Les prix affichés sont-ils des estimations ?
 
-Les indicateurs sont calculés à partir des transactions immobilières disponibles dans la base DVF selon les filtres sélectionnés. Ils constituent une aide à l'analyse et non une expertise immobilière.
-
-# Questions utilisateurs
-
-Je veux connaître le prix d'une maison.
-
-Je veux connaître le prix d'un appartement.
-
-Je veux connaître la valeur d'un bien.
-
-Je veux estimer mon appartement.
-
-Je veux estimer une maison.
-
-Je peux rechercher le prix d'un bien grâce à son adresse ?
-
-Comment connaître le prix d'un bien ?
-
-Comment savoir combien vaut mon appartement ?
-
-Combien vaut cette maison ?
-
-Peut-on estimer un bien ?
-
-Est-ce que Scalrise peut estimer un bien ?
+Non : ce sont des statistiques sur des ventes réelles. Elles aident à l'analyse mais ne remplacent pas une expertise.
 
 ## Chemin d'accès
 

@@ -10,157 +10,72 @@ access: Menu latéral › Immobilier › carte Gérer mes biens › cliquer sur 
 
 ## Description
 
-La fiche d'un bien centralise toutes les informations liées à un bien immobilier.
+La fiche d'un bien centralise tout ce qui concerne un bien immobilier : informations, locataires et loyers, finances et prêts, documents, historique, visites et candidatures. Elle s'ouvre en cliquant sur le bien dans « Gérer mes biens ».
 
-Elle permet de suivre les locataires, les loyers, les documents, les finances et l'historique du bien depuis un seul écran.
+En haut de la fiche : le nom et l'adresse du bien, ses caractéristiques (type, surface, pièces, chambres, meublé ou non, DPE et GES) et un bandeau rappelant les échéances à venir du bien. Les actions permettent de modifier le bien, d'ajouter un locataire ou de créer une tâche liée au bien (visite, travaux…).
 
----
+## Les 7 onglets
 
-# Accès
+### Vue d'ensemble
 
-Immobilier
-→ Gérer mes biens
-→ Sélectionner un bien
+- **À traiter** : ce qui demande une action (prêt à associer, signature en attente…).
+- **Prochaine échéance** du bien.
+- **Occupation et locataires** : chambres occupées, locataires actifs, revenus mensuels.
+- **Informations du bien**.
+- **Annonces** : liens des annonces de location publiées (voir la fiche Annonces de location).
+- **Activité récente**.
 
----
+### Locataire
 
-# Informations générales
+Chaque locataire actif, avec son loyer, ses charges, sa période de location et le suivi des loyers mois par mois (voir la fiche Suivi des loyers). Le menu du locataire permet de :
 
-En haut de la page sont affichés :
+- modifier le locataire ;
+- générer une quittance ;
+- générer une attestation de loyers ;
+- voir l'historique des paiements ;
+- archiver le locataire à son départ.
 
-- Nom du bien
-- Adresse
-- Type (Appartement, Maison...)
-- Surface
-- Nombre de pièces
-- Nombre de chambres
-- Type de location (Meublé / Non meublé)
-- Revenus mensuels
-- Chambres occupées
-- Nombre de locataires actifs
-- Classe énergétique (DPE)
-- Classe climat (GES)
+La ligne de **révision du loyer (IRL)** s'affiche aussi sur chaque locataire (voir la fiche Révision annuelle du loyer).
 
----
+### Finances
 
-# Actions disponibles
+- Carte **Valeur estimée** : estimation à partir des ventes proches, plus-value latente, valeur nette (voir la fiche Valeur estimée d'un bien).
+- Loyers, charges, taxe foncière et cashflow mensuel ; résumé annuel (attendu, perçu, taux de recouvrement).
+- Jauges de rentabilité (brute, nette, nette après crédit, cash-on-cash) et détail annuel des flux.
+- Carte **Prêts** : prêts associés au bien, prêts à paliers, avancement du remboursement (voir la fiche Prêts immobiliers d'un bien).
 
-Selon les droits de l'utilisateur, il est possible de :
+### Documents
 
-- Modifier le bien
-- Ajouter un locataire
-- Créer une tâche liée au bien
+Les documents générés à partir des informations du bien, du bailleur et du locataire :
 
----
+- **Bail (Contrat de location)** : meublé, non meublé ou bail mobilité, créé étape par étape ;
+- **État des lieux** d'entrée ou de sortie, avec photos ;
+- **Attestation d'hébergement** : attestation sur l'honneur pour un locataire ;
+- **Avis d'échéance** de loyer mensuel ;
+- **Fin d'occupation** : attestation de remise des clés pour un ancien locataire.
 
-# Onglets disponibles
+Le bail et l'état des lieux peuvent être signés électroniquement (voir la fiche Signature électronique).
 
-La fiche est organisée en plusieurs onglets.
+### Historique
 
-## Locataires
+- **Révisions de loyer** appliquées, programmées ou abandonnées.
+- **Historique des locataires** : anciens locataires archivés, avec leur période d'occupation et leurs paiements.
 
-Affiche tous les locataires actifs du bien.
+### Visites
 
-Pour chaque locataire :
+Lien de réservation des visites, créneaux et disponibilités, visites réservées (voir la fiche Visites du logement).
 
-- identité
-- email
-- période de location
-- statut
-- montant du loyer
-- charges
-- historique des loyers mensuels
-- progression des paiements
-- documents associés
+### Candidatures
 
-Les loyers sont affichés mois par mois afin de visualiser rapidement les paiements.
+Lien de candidature, dossiers reçus, score de solvabilité et choix du locataire (voir la fiche Dossiers de candidature).
 
----
+## Questions auxquelles Scalia doit répondre
 
-## Historique
-
-Affiche les anciens locataires.
-
-Chaque ancien locataire conserve son historique.
-
-On retrouve notamment :
-
-- période d'occupation
-- ancien loyer
-- montant total perçu
-- possibilité de consulter certains anciens documents
-
----
-
-## Finances
-
-Permet de suivre les performances financières du bien.
-
-Informations disponibles :
-
-- loyers mensuels
-- charges mensuelles
-- taxe foncière
-- cash-flow mensuel
-
-Résumé annuel :
-
-- total attendu
-- total perçu
-- taux de recouvrement
-
-Lorsque les données DVF sont disponibles :
-
-- estimation du prix du quartier
-- prix moyen au m²
-- prix minimum observé
-- prix maximum observé
-
-Gestion des crédits :
-
-- liste des prêts immobiliers associés au bien
-- possibilité d'ajouter un prêt
-
----
-
-## Quittances
-
-Permet de générer les quittances de loyer.
-
-Fonctionnalités :
-
-- génération individuelle
-- génération multiple
-- sélection de plusieurs locataires
-
-Les quittances utilisent automatiquement les informations :
-
-- du bien
-- du bailleur
-- du locataire
-
----
-
-## Documents
-
-Centralise les documents administratifs.
-
-Documents disponibles :
-
-- Bail de location
-- État des lieux
-- Attestation d'hébergement
-- Avis d'échéance
-
-Les documents utilisent automatiquement les informations enregistrées dans Scalrise.
-
----
-
-# Objectif
-
-Cette page constitue le centre de gestion d'un bien immobilier.
-
-Toutes les opérations concernant un bien sont accessibles depuis cette fiche.
+- Que trouve-t-on dans la fiche d'un bien ?
+- Où ranger les documents d'un appartement ?
+- Comment générer une quittance depuis la fiche du bien ?
+- Où voir les anciens locataires d'un bien ?
+- Quels documents peut-on générer pour un bien ?
 
 ## Chemin d'accès
 

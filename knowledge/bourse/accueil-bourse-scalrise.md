@@ -29,6 +29,10 @@ Cette page sert de point d'entrée vers les différents outils boursiers de Scal
 
 ## Fonctionnalités disponibles
 
+### Cockpit patrimonial
+
+Carte placée en tête de la page (et aussi en tête de la page Immobilier) : elle ouvre la **Synthèse**, qui réunit immobilier, bourse et crypto (patrimoine net, cashflow et répartition en un coup d'œil).
+
 ### Suivi des dividendes
 
 Cette rubrique permet d'estimer et de suivre les dividendes.
@@ -68,11 +72,7 @@ Le bouton **Accéder** ouvre la fonctionnalité correspondante.
 
 Cette rubrique permet de gérer plusieurs comptes ou enveloppes d'investissement.
 
-Les exemples visibles sont :
-
-- le PEA ;
-- le CTO ;
-- les autres comptes d'investissement seront ajoutés dans le futur.
+Types de portefeuille proposés : PEA, PEA-PME, CTO, PER, assurance-vie, et pour l'épargne salariale PEE, PEG et PERECO.
 
 Le bouton **Accéder** ouvre la gestion des portefeuilles.
 
@@ -127,8 +127,7 @@ Le menu latéral permet notamment d'accéder aux modules suivants :
 - Tâches ;
 - Bibliothèque ;
 - Mon abonnement ;
-- Outils ;
-- Admin.
+- Outils.
 
 La page affiche également un bouton de retour vers **Accueil**.
 
@@ -150,7 +149,7 @@ Scalia peut répondre :
 
 Scalia peut répondre :
 
-> Oui. La rubrique « Mes Portefeuilles » permet de gérer vos PEA, CTO et autres comptes d'investissement.
+> Oui. La rubrique « Mes Portefeuilles » permet de gérer vos PEA, PEA-PME, CTO, PER, assurances-vie et plans d'épargne salariale (PEE, PEG, PERECO).
 
 ### Question : À quoi sert l'Explorateur Actions & ETF ?
 

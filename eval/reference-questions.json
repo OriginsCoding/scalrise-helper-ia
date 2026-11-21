@@ -85,6 +85,25 @@
     {"question": "Où voir l'ensemble de mon patrimoine immobilier, bourse et crypto ?", "expected": ["knowledge/general/synthese-patrimoine.md"]},
     {"question": "Qu'est-ce que le cockpit patrimonial ?", "expected": ["knowledge/general/synthese-patrimoine.md"]},
     {"question": "Comment suivre mon PEE dans Scalrise ?", "expected": ["knowledge/bourse/epargne-salariale.md"]},
-    {"question": "Quel est le plafond de l'abondement PERECO en 2026 ?", "expected": ["knowledge/bourse/epargne-salariale.md"]}
+    {"question": "Quel est le plafond de l'abondement PERECO en 2026 ?", "expected": ["knowledge/bourse/epargne-salariale.md"]},
+    {"question": "Comment ajouter une position crypto ?", "expected": ["knowledge/crypto/crypto.md"]},
+    {"question": "Comment suivre mes récompenses de staking ?", "expected": ["knowledge/crypto/crypto.md"]},
+    {"question": "Peut-on connecter son compte Binance ?", "expected": ["knowledge/crypto/crypto.md"]},
+    {"question": "Comment faire un devis pour un client ?", "expected": ["knowledge/entrepreneuriat/crm.md"]},
+    {"question": "Comment suivre mes prospects commerciaux ?", "expected": ["knowledge/entrepreneuriat/crm.md"]},
+    {"question": "Comment créer et envoyer une facture ?", "expected": ["knowledge/entrepreneuriat/crm.md"]},
+    {"question": "Quand puis-je revendre mon bien sans perdre d'argent ?", "expected": ["knowledge/immobilier/revente-avec-credit.md"]},
+    {"question": "Comment est calculée la plus-value à la revente de mon bien ?", "expected": ["knowledge/immobilier/revente-avec-credit.md"]},
+    {"question": "Vaut-il mieux acheter ou louer sa résidence principale ?", "expected": ["knowledge/immobilier/acheter-ou-louer.md"]},
+    {"question": "Au bout de combien d'années acheter devient-il plus rentable que louer ?", "expected": ["knowledge/immobilier/acheter-ou-louer.md"]},
+    {"question": "Où voir mon chiffre d'affaires d'entrepreneur ?", "expected": ["knowledge/entrepreneuriat/tableau-de-bord-entrepreneuriat.md"]},
+    {"question": "Comment voir les statistiques de mes tâches ?", "expected": ["knowledge/entrepreneuriat/bilan-des-taches.md"]},
+    {"question": "Quelles tâches je reporte trop souvent ?", "expected": ["knowledge/entrepreneuriat/bilan-des-taches.md"]},
+    {"question": "Comment rejouer le tutoriel Kanban ?", "expected": ["knowledge/general/tutoriels.md"]},
+    {"question": "Le tutoriel bourse ajoute-t-il des données dans mon compte ?", "expected": ["knowledge/general/tutoriels.md"]},
+    {"question": "Comment inviter un membre dans mon projet Kanban ?", "expected": ["knowledge/entrepreneuriat/projects.md"]},
+    {"question": "Comment filtrer les cartes de mon Kanban par type ?", "expected": ["knowledge/entrepreneuriat/projects.md"]},
+    {"question": "Quel est le taux moyen des crédits immobiliers selon la Banque de France ?", "expected": ["knowledge/immobilier/taux-et-simulation.md"]},
+    {"question": "Quels onglets contient la fiche d'un bien ?", "expected": ["knowledge/immobilier/fiche-bien-scalrise.md"]}
   ]
 }

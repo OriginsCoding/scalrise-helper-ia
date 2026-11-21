@@ -67,15 +67,15 @@ Les mensualités sont recalculées automatiquement.
 
 ## Utiliser les taux du marché
 
-Scalrise affiche les taux proposés par plusieurs courtiers.
-
-Exemples :
-
-- Pretto
-- Meilleurtaux
-- CAFPI
+Scalrise affiche les taux immobiliers relevés chaque jour chez plusieurs courtiers en ligne, pour les durées de 15, 20 et 25 ans, avec la date du relevé. La page affiche toujours le relevé utilisable le plus récent.
 
 Un simple clic sur un taux permet de l'appliquer automatiquement à la simulation.
+
+## Repère officiel de la Banque de France
+
+La page affiche aussi le **taux moyen des nouveaux crédits à l'habitat** publié chaque mois par la Banque de France (taux fixé sur plus de 10 ans, et tous crédits confondus). Il est comparé à la moyenne des courtiers pour 15, 20 et 25 ans, avec l'écart en points.
+
+Cette statistique paraît environ deux mois après le mois concerné : c'est un repère du marché, pas une offre de prêt.
 
 ---
 
@@ -160,19 +160,11 @@ Oui.
 
 ## Peut-on comparer plusieurs taux immobiliers ?
 
-Oui. Les taux proposés par différents courtiers peuvent être utilisés directement dans la simulation.
+Oui. Les taux relevés chez plusieurs courtiers peuvent être utilisés directement dans la simulation, et comparés au taux moyen de la Banque de France.
 
-## Peut-on utiliser les taux de Pretto ?
+## Quel est le taux moyen actuel d'un crédit immobilier ?
 
-Oui.
-
-## Peut-on utiliser les taux de Meilleurtaux ?
-
-Oui.
-
-## Peut-on utiliser les taux de CAFPI ?
-
-Oui.
+La page affiche les taux relevés chez les courtiers et le taux moyen publié par la Banque de France, avec leur date.
 
 ## Comment connaître ma mensualité de crédit ?
 
