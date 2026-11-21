@@ -4,11 +4,17 @@ module: bourse
 route: /stocks/portfolio
 page_type: fonctionnalité
 version: 1.0
+action_label: Ouvrir le Portfolio
+access: Menu latéral › Bourse › carte Portfolio
 ---
 
 # Portfolio boursier
 
-Tags : portfolio, portefeuille boursier, vue d'ensemble, actions, positions, allocation sectorielle, plus-value, moins-value, performance, rendement dividendes, valeur totale, capital investi, diversification, bourse, PEA, CTO
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse** › carte **Portfolio**.
+- Lien direct dans Scalrise : `/stocks/portfolio`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir le Portfolio » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 

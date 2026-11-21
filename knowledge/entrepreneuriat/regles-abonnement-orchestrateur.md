@@ -4,9 +4,18 @@ module: entrepreneuriat
 feature: orchestrateur-de-taches
 priority: critical
 version: 1.0
+route: /entrepreneurship/task-orchestrator
+action_label: Ouvrir l’Orchestrateur de tâches
+access: Menu latéral › Entreprenariat › carte Orchestrateur de tâches
 ---
 
 # Accès Premium de l'Orchestrateur de tâches
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Entreprenariat** › carte **Orchestrateur de tâches**.
+- Lien direct dans Scalrise : `/entrepreneurship/task-orchestrator`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’Orchestrateur de tâches » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Règle critique
 

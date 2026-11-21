@@ -5,9 +5,17 @@ route: /stocks
 page_type: hub
 version: 1.0
 source: capture d'écran Scalrise
+action_label: Ouvrir la Bourse
+access: Menu latéral › Bourse
 ---
 
 # Accueil du module Bourse
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse**.
+- Lien direct dans Scalrise : `/stocks`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir la Bourse » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Objectif de la page
 

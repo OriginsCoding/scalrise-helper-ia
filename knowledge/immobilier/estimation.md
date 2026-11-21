@@ -1,6 +1,18 @@
+---
+title: Estimation immobilière
+module: immobilier
+route: /real-estate/price-per-sqm
+action_label: Ouvrir Prix au m²
+access: Menu latéral › Immobilier › carte Prix au m²
+---
+
 # Estimation immobilière
 
-Tags : estimation, valeur d'un bien, combien vaut mon appartement, combien vaut ma maison
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Prix au m²**.
+- Lien direct dans Scalrise : `/real-estate/price-per-sqm`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Prix au m² » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## À quoi sert le module ?
 

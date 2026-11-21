@@ -5,9 +5,17 @@ route: /properties/landlords
 page_type: management
 version: 1.0
 source: captures d'écran Scalrise
+action_label: Ouvrir mes bailleurs
+access: Menu latéral › Immobilier › carte Gérer mes bailleurs (ou bouton Gérer les bailleurs dans Gérer mes biens)
 ---
 
 # Mes bailleurs
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes bailleurs** (ou bouton **Gérer les bailleurs** dans Gérer mes biens).
+- Lien direct dans Scalrise : `/properties/landlords`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir mes bailleurs » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Objectif de la page
 

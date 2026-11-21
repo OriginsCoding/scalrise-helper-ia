@@ -1,16 +1,24 @@
+---
+title: Mes habitudes
+module: entrepreneuriat
+route: /habits
+action_label: Ouvrir mes habitudes
+access: Menu latéral › Habitudes (ou Entreprenariat › carte Gérer mes habitudes)
+---
+
 # Mes habitudes
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Habitudes** (ou **Entreprenariat** › carte **Gérer mes habitudes**).
+- Lien direct dans Scalrise : `/habits`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir mes habitudes » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Navigation
 
 Entrepreneuriat → Mes habitudes
 
 La page **Mes habitudes** permet de créer, suivre et analyser ses habitudes afin d'améliorer sa régularité et sa productivité.
-
-> Accéder à « Gérer mes habitudes »
-
-L'URL visible dans la capture est de la forme :
-
-`https://www.scalrise.com/habits`
 
 ---
 

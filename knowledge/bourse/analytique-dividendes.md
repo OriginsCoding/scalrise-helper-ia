@@ -4,11 +4,17 @@ module: bourse
 route: /stocks/dividends/analytics
 page_type: fonctionnalité-premium
 version: 1.0
+action_label: Ouvrir l’analytique des dividendes
+access: Menu latéral › Bourse › carte Suivi des dividendes › bouton Analytique
 ---
 
 # Analytique des dividendes
 
-Tags : analytique dividendes, analyse dividendes, rendement sur coût, yield on cost, yoc, dgr, croissance dividendes, capital récupéré, dividendes premium, revenus passifs, investissement, bourse, pea, cto
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse** › carte **Suivi des dividendes** › bouton **Analytique**.
+- Lien direct dans Scalrise : `/stocks/dividends/analytics`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’analytique des dividendes » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 

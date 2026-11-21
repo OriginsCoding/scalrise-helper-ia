@@ -1,6 +1,18 @@
+---
+title: Les données DVF
+module: immobilier
+route: /real-estate/price-per-sqm
+action_label: Ouvrir Prix au m²
+access: Menu latéral › Immobilier › carte Prix au m²
+---
+
 # Les données DVF
 
-Tags : DVF, Demandes de Valeurs Foncières, prix immobilier, ventes immobilières, base DVF, prix au m²
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Prix au m²**.
+- Lien direct dans Scalrise : `/real-estate/price-per-sqm`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Prix au m² » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Qu'est-ce que la base DVF ?
 

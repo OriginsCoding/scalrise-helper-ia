@@ -1,20 +1,20 @@
 ---
 title: Free vs Premium sur Scalrise
 module: general
-route: /pricing
+route: /subscription
 page_type: reference-abonnement
 version: 1.0
+action_label: Voir les offres
+access: Menu latéral › Mon abonnement
 ---
 
 # Free vs Premium sur Scalrise
 
-Tags : premium, gratuit, free, abonnement, limite, quota, différence free premium, que débloque premium, tarif, offre, plan, prix
+## Chemin d'accès
 
-Ce document réunit les règles Free/Premium de tous les modules de Scalrise, pour répondre directement aux questions qui ne concernent pas une seule page (« Quelle est la différence entre Free et Premium ? », « Que débloque Premium ? », « Qu'est-ce qui est gratuit sur Scalrise ? »).
-
-Pour une question sur une fonctionnalité précise, la page dédiée à cette fonctionnalité reste la source la plus fiable ; ce document sert de vue d'ensemble.
-
----
+- Depuis le menu : Menu latéral › **Mon abonnement**.
+- Lien direct dans Scalrise : `/subscription`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Voir les offres » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Immobilier
 

@@ -1,13 +1,21 @@
 ---
 title: Gérer mes biens
 module: immobilier
-route: /properties?landlord={landlordId}
+route: /properties
 page_type: listing
 version: 1.1
 source: captures d'écran Scalrise
+action_label: Ouvrir Gérer mes biens
+access: Menu latéral › Immobilier › carte Gérer mes biens
 ---
 
 # Gérer mes biens
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens**.
+- Lien direct dans Scalrise : `/properties`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Gérer mes biens » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Objectif de la page
 
@@ -43,21 +51,7 @@ Scalia ne doit jamais répondre simplement « oui » à la question
 2. Aller dans le module **Immobilier**.
 3. Ouvrir la rubrique **Gérer mes biens**.
 
-Scalia peut proposer un accès direct à cette page dans ses réponses :
-
-Gérer mes biens
-
-Lorsque la question de l'utilisateur nécessite d'ouvrir cette page, afficher ce lien après les explications sous la forme d'une action courte :
-
-> Accéder à « Gérer mes biens »
-
-L'URL visible dans la capture est de la forme :
-
-`https://www.scalrise.com/properties?landlord={landlordId}`
-
-Le paramètre `landlord` semble permettre de filtrer la page selon un bailleur.
-
-Scalia ne doit pas inventer le comportement exact du paramètre si cela n'est pas documenté ailleurs.
+Quand un bailleur est choisi dans le filtre, l'adresse de la page devient `/properties?landlord=…` : le paramètre `landlord` sert uniquement à ce filtre.
 
 ## Éléments visibles en haut de page
 

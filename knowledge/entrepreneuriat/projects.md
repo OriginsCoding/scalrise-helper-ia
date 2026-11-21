@@ -5,11 +5,17 @@ route: /projects
 page_type: gestion-projets
 version: 1.0
 source: captures d'écran Scalrise
+action_label: Ouvrir mes projets
+access: Menu latéral › Entreprenariat › carte Mes projets
 ---
 
 # Mes projets
 
-Tags : projet, projets, kanban, trello, jira, tableau kanban, gestion de projet, cartes, colonnes, backlog, sprint, développement, équipe, collaboration, story points, labels, sous-tâches, roadmap, bug, fonctionnalité, premium, entrepreneur
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Entreprenariat** › carte **Mes projets**.
+- Lien direct dans Scalrise : `/projects`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir mes projets » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 

@@ -5,9 +5,17 @@ route: /entrepreneurship
 page_type: hub
 version: 1.0
 source: capture d'écran Scalrise
+action_label: Ouvrir l’Entreprenariat
+access: Menu latéral › Entreprenariat
 ---
 
 # Accueil du module Entrepreneuriat
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Entreprenariat**.
+- Lien direct dans Scalrise : `/entrepreneurship`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’Entreprenariat » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Objectif de la page
 

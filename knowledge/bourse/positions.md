@@ -4,11 +4,17 @@ module: bourse
 route: /stocks/portfolio
 page_type: fonctionnalité
 version: 1.0
+action_label: Ouvrir mes positions
+access: Menu latéral › Bourse › carte Portfolio (ou ouvrir un portefeuille depuis Mes Portefeuilles)
 ---
 
 # Positions boursières
 
-Tags : position boursière, ajouter une position, importer des positions, import CSV, fichier CSV, actions détenues, quantité, prix de revient, prix d'achat, date d'achat, portefeuille, PEA, CTO, broker, courtier, import manuel, intelligence artificielle, ChatGPT
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse** › carte **Portfolio** (ou ouvrir un portefeuille depuis **Mes Portefeuilles**).
+- Lien direct dans Scalrise : `/stocks/portfolio`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir mes positions » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 

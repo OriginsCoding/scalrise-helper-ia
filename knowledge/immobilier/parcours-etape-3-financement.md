@@ -4,12 +4,17 @@ module: immobilier
 route: /real-estate/parcours/step/3
 page_type: formation
 version: 1.0
+action_label: Ouvrir l’étape 3 du Parcours Immo
+access: Menu latéral › Immobilier › carte Mon Parcours Immo › Étape 3
 ---
 
 # Financer son projet
 
-Tags :
-crédit immobilier, financement, emprunt, banque, assurance emprunteur, capacité d'emprunt, prêt immobilier, premium
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo** › **Étape 3**.
+- Lien direct dans Scalrise : `/real-estate/parcours/step/3`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’étape 3 du Parcours Immo » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 

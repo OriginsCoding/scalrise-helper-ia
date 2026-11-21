@@ -68,6 +68,8 @@ function Get-DocumentMetadata {
         title = $DefaultTitle
         module = ''
         route = ''
+        action_label = ''
+        access = ''
         page_type = ''
         tags = @()
     }
@@ -82,6 +84,14 @@ function Get-DocumentMetadata {
             }
             elseif ($line -match '^\s*route\s*:\s*(.+?)\s*$') {
                 $metadata.route = $Matches[1].Trim().Trim('"').Trim("'")
+            }
+            elseif ($line -match '^\s*action_label\s*:\s*(.+?)\s*$') {
+                # Libellé du bouton affiché par le chatbot pour ouvrir la page (vide : pas de bouton).
+                $metadata.action_label = $Matches[1].Trim().Trim('"').Trim("'")
+            }
+            elseif ($line -match '^\s*access\s*:\s*(.+?)\s*$') {
+                # Chemin dans les menus pour atteindre la page, repris dans le contexte du chatbot.
+                $metadata.access = $Matches[1].Trim().Trim('"').Trim("'")
             }
             elseif ($line -match '^\s*page_type\s*:\s*(.+?)\s*$') {
                 $metadata.page_type = $Matches[1].Trim().Trim('"').Trim("'")
@@ -374,6 +384,8 @@ $relativePath = $relativePath.Replace("\", "/")
             title = $metadata.title
             module = $metadata.module
             route = $metadata.route
+            action_label = $metadata.action_label
+            access = $metadata.access
             page_type = $metadata.page_type
             tags = $metadata.tags
             chunk = $chunkNumber
@@ -414,3 +426,7 @@ Write-Host "Index créé avec succès."
 Write-Host "Documents indexés : $($documents.Count)"
 Write-Host "Taille : $((Get-Item $indexPath).Length) octets"
 Write-Host "Fichier : $indexPath"
+
+# Les questions de référence sont recalculées avec le même modèle que l'index,
+# pour que le test de non-régression compare des vecteurs compatibles.
+& (Join-Path $PSScriptRoot "embed-reference-questions.ps1")

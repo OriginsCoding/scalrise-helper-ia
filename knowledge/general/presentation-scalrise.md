@@ -1,26 +1,19 @@
 ---
 title: Présentation de Scalrise
 module: général
-route: /
+route: /home
 page_type: présentation
 version: 1.0
+action_label: 
+access: Menu latéral › Accueil
 ---
 
 # Présentation de Scalrise
 
-Tags : scalrise, plateforme, logiciel, site web, application web, entrepreneur, investisseur, immobilier, bourse, entrepreneuriat, productivité, gestion, patrimoine, organisation, tâches, habitudes, projets, focus, crm, dividendes, loyers, présentation
-site
-plateforme
-application
-scalrise
-que peut faire
-à quoi sert
-fonctionnalités
-modules
-immobilier
-bourse
-entrepreneuriat
-productivité
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Accueil**.
+- Lien direct dans Scalrise : `/home`
 
 ## Qu'est-ce que Scalrise ?
 

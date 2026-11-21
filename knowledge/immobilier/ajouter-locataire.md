@@ -1,4 +1,18 @@
+---
+title: Ajouter un locataire
+module: immobilier
+route: /properties
+action_label: Ouvrir Gérer mes biens
+access: Menu latéral › Immobilier › carte Gérer mes biens › cliquer sur le bien › bouton Ajouter un locataire
+---
+
 # Ajouter un locataire
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens** › cliquer sur le bien › bouton **Ajouter un locataire**.
+- Lien direct dans Scalrise : `/properties`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Gérer mes biens » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Description
 

@@ -1,4 +1,18 @@
+---
+title: Notes & idées
+module: entrepreneuriat
+route: /entrepreneurship/notes
+action_label: Ouvrir Notes & Idées
+access: Menu latéral › Entreprenariat › carte Notes & Idées
+---
+
 # Notes & idées
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Entreprenariat** › carte **Notes & Idées**.
+- Lien direct dans Scalrise : `/entrepreneurship/notes`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Notes & Idées » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Navigation
 

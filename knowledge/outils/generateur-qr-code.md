@@ -4,11 +4,17 @@ module: outils
 route: /tools/qrcode
 page_type: fonctionnalité
 version: 1.0
+action_label: Ouvrir le générateur de QR code
+access: Menu latéral › Outils › carte Générateur QR Code
 ---
 
 # Générateur QR Code
 
-Tags : QR Code, générateur QR Code, QR Code statique, QR Code dynamique, QR dynamique, QR gratuit, QR Premium, lien QR Code, modifier lien QR Code
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Outils** › carte **Générateur QR Code**.
+- Lien direct dans Scalrise : `/tools/qrcode`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir le générateur de QR code » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 

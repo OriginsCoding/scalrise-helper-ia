@@ -5,9 +5,17 @@ route: /library
 page_type: catalogue
 version: 1.0
 source: captures d'écran Scalrise
+action_label: Ouvrir la Bibliothèque
+access: Menu latéral › Bibliothèque
 ---
 
 # Bibliothèque Scalrise
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bibliothèque**.
+- Lien direct dans Scalrise : `/library`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir la Bibliothèque » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Objectif de la page
 

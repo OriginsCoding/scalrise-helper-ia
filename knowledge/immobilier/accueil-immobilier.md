@@ -5,9 +5,17 @@ route: /real-estate
 page_type: hub
 version: 1.0
 source: capture d'écran Scalrise
+action_label: Ouvrir l’Immobilier
+access: Menu latéral › Immobilier
 ---
 
 # Accueil du module Immobilier
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier**.
+- Lien direct dans Scalrise : `/real-estate`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’Immobilier » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Objectif de la page
 

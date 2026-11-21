@@ -1,6 +1,18 @@
+---
+title: Calcul de rentabilité
+module: immobilier
+route: /real-estate/profitability
+action_label: Ouvrir le calcul de rentabilité
+access: Menu latéral › Immobilier › carte Calculs de rentabilité
+---
+
 # Calcul de rentabilité
 
-Tags : rentabilité, rendement locatif, cashflow, ROI, investissement immobilier, rendement brut, rendement net, rentabilité nette, crédit immobilier, fiscalité, simulation immobilière, calcul investissement, LMNP, Micro-BIC, Réel simplifié
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Calculs de rentabilité**.
+- Lien direct dans Scalrise : `/real-estate/profitability`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir le calcul de rentabilité » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 # Description
 

@@ -1,6 +1,18 @@
+---
+title: Taux & Simulation
+module: immobilier
+route: /rates
+action_label: Ouvrir Taux & Simulation
+access: Menu latéral › Immobilier › carte Taux & Simulation (ou Outils › Simulateur de prêt)
+---
+
 # Taux & Simulation
 
-Tags : taux immobilier, simulation prêt, capacité d'emprunt, crédit immobilier, mensualité, taux d'endettement, taux d'intérêt, assurance emprunteur, emprunt immobilier, Pretto, Meilleurtaux, CAFPI, financement
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Taux & Simulation** (ou **Outils** › **Simulateur de prêt**).
+- Lien direct dans Scalrise : `/rates`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Taux & Simulation » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 # Description
 

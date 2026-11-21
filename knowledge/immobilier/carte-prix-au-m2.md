@@ -5,11 +5,17 @@ route: /real-estate/price-map
 page_type: carte-interactive
 version: 1.0
 source: capture d'écran Scalrise
+action_label: Ouvrir la carte des prix
+access: Menu latéral › Immobilier › carte Carte des prix
 ---
 
 # Carte des prix au m²
 
-Tags : carte prix immobilier, carte des prix au m², prix immobilier par département, DVF, médiane nationale, département le plus cher, département le moins cher, recherche département, marché immobilier français, comparaison départements, prix médian, immobilier France
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Carte des prix**.
+- Lien direct dans Scalrise : `/real-estate/price-map`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir la carte des prix » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 

@@ -4,11 +4,17 @@ module: bourse
 route: /stocks/portfolios
 page_type: fonctionnalité
 version: 1.0
+action_label: Ouvrir mes portefeuilles
+access: Menu latéral › Bourse › carte Mes Portefeuilles
 ---
 
 # Mes portefeuilles
 
-Tags : portefeuille, portefeuilles, bourse, pea, cto, compte titres, investissement, actions, créer portefeuille, gestion portefeuille
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse** › carte **Mes Portefeuilles**.
+- Lien direct dans Scalrise : `/stocks/portfolios`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir mes portefeuilles » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 

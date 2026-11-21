@@ -5,13 +5,17 @@ route: /tools/focus
 page_type: productivite
 version: 1.0
 source: captures d'écran Scalrise
+action_label: Ouvrir le Focus Workspace
+access: Menu latéral › Outils › carte Focus Workspace (ou Entreprenariat › carte Focus Workspace)
 ---
 
 # Focus Workspace
 
-Tags : focus workspace, concentration, pomodoro, minuteur, timer pomodoro, musique de concentration, ambiance, vidéo de fond, feu de cheminée, café, jazz, pluie, forêt, synthwave, playlist YouTube, tâches du jour, bloc note, notes, deep work, productivité, outils, focus, espace de travail
+## Chemin d'accès
 
-Le **Focus Workspace est entièrement gratuit**.
+- Depuis le menu : Menu latéral › **Outils** › carte **Focus Workspace** (ou **Entreprenariat** › carte **Focus Workspace**).
+- Lien direct dans Scalrise : `/tools/focus`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir le Focus Workspace » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 
@@ -35,17 +39,11 @@ Focus Workspace
 
 Lorsque la question de l'utilisateur nécessite d'ouvrir cette page, afficher ce lien après les explications sous la forme d'une action courte :
 
-> Accéder à « Focus Workspace »
-
 L'URL visible dans la capture est de la forme :
 
 Cette fonctionnalité est accessible depuis :
 
 - **Outils → Focus Workspace**
-
-L'URL visible dans la capture est de la forme :
-
-`https://www.scalrise.com/tools/focus`
 
 ## Fonctionnalités principales
 

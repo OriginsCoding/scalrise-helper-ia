@@ -1,14 +1,22 @@
+---
+title: Mes tâches
+module: entrepreneuriat
+route: /tasks
+action_label: Ouvrir mes tâches
+access: Menu latéral › Tâches (ou Entreprenariat › carte Gérer mes tâches)
+---
+
 # Mes tâches
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Tâches** (ou **Entreprenariat** › carte **Gérer mes tâches**).
+- Lien direct dans Scalrise : `/tasks`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir mes tâches » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Navigation
 
 Entrepreneuriat → Mes tâches
-
-> Accéder à « Gérer mes tâches »
-
-L'URL visible dans la capture est de la forme :
-
-`https://www.scalrise.com/tasks`
 
 ou directement depuis **Tâches** dans le menu latéral.
 

@@ -4,9 +4,18 @@ module: immobilier
 feature: gestion-des-biens
 priority: critical
 version: 1.0
+route: /properties
+action_label: Ouvrir Gérer mes biens
+access: Menu latéral › Immobilier › carte Gérer mes biens
 ---
 
 # Limite de biens selon l'abonnement
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Gérer mes biens**.
+- Lien direct dans Scalrise : `/properties`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir Gérer mes biens » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Règle critique
 

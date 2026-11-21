@@ -4,11 +4,17 @@ module: bourse
 route: /stocks/simulator
 page_type: fonctionnalité
 version: 1.0
+action_label: Ouvrir le simulateur
+access: Menu latéral › Bourse › carte Simulateur Patrimoine
 ---
 
 # Simulateur Patrimoine
 
-Tags : simulateur patrimoine, intérêts composés, monte carlo, simulation bourse, projection patrimoine, projection investissement, rendement, capital, versement mensuel, simulation financière, patrimoine futur, simulation long terme
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse** › carte **Simulateur Patrimoine**.
+- Lien direct dans Scalrise : `/stocks/simulator`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir le simulateur » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 

@@ -4,11 +4,17 @@ module: immobilier
 route: /real-estate/parcours
 page_type: formation
 version: 1.0
+action_label: Ouvrir le Parcours Immobilier
+access: Menu latéral › Immobilier › carte Mon Parcours Immo
 ---
 
 # Parcours Immobilier
 
-Tags : parcours immobilier, formation immobilier, apprentissage immobilier, cours immobilier, leçons immobilier, étape par étape, investissement locatif, premium, gratuit
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo**.
+- Lien direct dans Scalrise : `/real-estate/parcours`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir le Parcours Immobilier » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 

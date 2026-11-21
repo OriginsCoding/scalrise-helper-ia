@@ -4,23 +4,23 @@ module: bourse
 route: /stocks/dividends
 page_type: fonctionnalité
 version: 1.0
+action_label: Ouvrir le suivi des dividendes
+access: Menu latéral › Bourse › carte Suivi des dividendes
 ---
 
 # Suivi des dividendes
 
-Tags : dividendes, revenus passifs, dividende, portefeuille, pea, cto, rendement, historique, analyse, revenus, estimation, graphique
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse** › carte **Suivi des dividendes**.
+- Lien direct dans Scalrise : `/stocks/dividends`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir le suivi des dividendes » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 
 La page **Suivi des dividendes** est accessible depuis :
 
 - **Bourse → Suivi des dividendes**
-
-> Accéder à « Suivi des dividendes »
-
-L'URL visible dans la capture est de la forme :
-
-`https://www.scalrise.com/stocks/dividends`
 
 Elle permet de suivre les revenus générés par les dividendes de ses portefeuilles boursiers.
 

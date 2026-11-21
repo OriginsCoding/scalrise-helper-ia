@@ -1,4 +1,18 @@
+---
+title: Abonnement Immobilier
+module: immobilier
+route: /subscription
+action_label: Voir les offres
+access: Menu latéral › Mon abonnement
+---
+
 # Abonnement Immobilier
+
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Mon abonnement**.
+- Lien direct dans Scalrise : `/subscription`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Voir les offres » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Description
 

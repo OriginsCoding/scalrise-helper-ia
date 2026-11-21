@@ -4,15 +4,17 @@ module: immobilier
 route: /real-estate/parcours/step/2
 page_type: formation
 version: 1.0
+action_label: Ouvrir l’étape 2 du Parcours Immo
+access: Menu latéral › Immobilier › carte Mon Parcours Immo › Étape 2
 ---
 
 # Trouver le bon bien
 
-Tags :
-recherche bien, bien rentable, trouver un investissement rentable,
-rentabilité immobilière, annonce immobilière, rendement locatif,
-cash-flow, ville rentable, investissement locatif rentable,
-analyser un bien, comparer des biens
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo** › **Étape 2**.
+- Lien direct dans Scalrise : `/real-estate/parcours/step/2`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’étape 2 du Parcours Immo » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 

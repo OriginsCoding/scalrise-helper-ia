@@ -4,11 +4,17 @@ module: bourse
 route: /stocks/explore
 page_type: fonctionnalité
 version: 1.0
+action_label: Ouvrir l’explorateur Actions & ETF
+access: Menu latéral › Bourse › carte Explorateur Actions & ETF
 ---
 
 # Explorateur Actions & ETF
 
-Tags : explorateur actions, ETF, recherche action, recherche ETF, PEA, CTO, actions françaises, filtre actions, screener bourse, exploration bourse
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Bourse** › carte **Explorateur Actions & ETF**.
+- Lien direct dans Scalrise : `/stocks/explore`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’explorateur Actions & ETF » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 

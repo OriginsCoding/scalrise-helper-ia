@@ -4,12 +4,17 @@ module: immobilier
 route: /real-estate/parcours/step/6
 page_type: formation
 version: 1.0
+action_label: Ouvrir l’étape 6 du Parcours Immo
+access: Menu latéral › Immobilier › carte Mon Parcours Immo › Étape 6
 ---
 
 # Gérer au quotidien
 
-Tags :
-gestion locative, loyers, charges, locataire, quittance, travaux, régularisation, premium
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Immobilier** › carte **Mon Parcours Immo** › **Étape 6**.
+- Lien direct dans Scalrise : `/real-estate/parcours/step/6`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’étape 6 du Parcours Immo » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 

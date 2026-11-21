@@ -5,11 +5,17 @@ route: /entrepreneurship/task-orchestrator
 page_type: automatisation
 version: 1.0
 source: captures d'écran Scalrise
+action_label: Ouvrir l’Orchestrateur de tâches
+access: Menu latéral › Entreprenariat › carte Orchestrateur de tâches
 ---
 
 # Orchestrateur de tâches
 
-Tags : orchestrateur de tâches, tâches récurrentes, automatisation des tâches, tâches mensuelles, tâches trimestrielles, tâches annuelles, modèles de tâches, catégories de tâches, génération automatique, planification récurrente, tâches entrepreneur, tâches immobilier, comptabilité, URSSAF, TVA, quittances, loyers, abonnement Premium, productivité
+## Chemin d'accès
+
+- Depuis le menu : Menu latéral › **Entreprenariat** › carte **Orchestrateur de tâches**.
+- Lien direct dans Scalrise : `/entrepreneurship/task-orchestrator`
+- Quand la réponse concerne cette page, Scalia affiche sous sa réponse un bouton « Ouvrir l’Orchestrateur de tâches » qui l'ouvre directement : inutile d'écrire l'adresse dans la réponse.
 
 ## Présentation
 
